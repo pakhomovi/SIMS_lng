@@ -370,7 +370,7 @@
       <mnNewUserText>Новый пользователь</mnNewUserText>
       <mnExportText>Экспорт</mnExportText>
       <mnSetPasswordText>Задать паспорт</mnSetPasswordText>
-      <mnSystemVersion>Версия системы (161216)</mnSystemVersion>
+      <mnSystemVersion>Версия системы (201216)</mnSystemVersion>
       <mnHelp>Помощь</mnHelp>
       <mnUserEvents>События пользователя</mnUserEvents>
       <mnGroupEvents>Групповые события</mnGroupEvents>
@@ -590,15 +590,15 @@
       <EAN_Code>EAN код</EAN_Code>
       <Point_Name>Имя точки</Point_Name>
       <_default_>&lt;по умолчанию&gt;</_default_>
-      <_none_>&lt;none&gt;</_none_>
+      <_none_>&lt;отсутствует&gt;</_none_>
       <LimitProperty>Лимит,%</LimitProperty>
       <Delete_selected_group>Удалить выбранную группу?</Delete_selected_group>
       <_Unknown_>(неизвестный)</_Unknown_>
       <In>Вход</In>
       <Out>Выход</Out>
       <No_Balance_values>Отсутствуют значения для баланса!</No_Balance_values>
-      <Add_Control_point_0>Add Control point {0}</Add_Control_point_0>
-      <Control_point_0_1>Control point {0} {1}</Control_point_0_1>
+      <Add_Control_point_0>Добавить контрольную точку {0}</Add_Control_point_0>
+      <Control_point_0_1>Контрольная точка {0} {1}</Control_point_0_1>
       <Remove_selected_measuring_points_from_group>Удалить отмеченные учётные точки из группы?</Remove_selected_measuring_points_from_group>
       <Remove_Control_point_0>Удалить точку учёта {0}</Remove_Control_point_0>
       <Set_Group_property_to_0>Set Group property to {0}</Set_Group_property_to_0>
@@ -749,7 +749,7 @@
       <TurnOffbyExt_Cur>Принудительное отключение из Центра текущее</TurnOffbyExt_Cur>
       <Relay2_Cur>Реле2 текущее</Relay2_Cur>
       <DevError_Cur>Ошибка устройства текущее</DevError_Cur>
-      <WrongInst_Cur>НеправильнУстановка_Текущ</WrongInst_Cur>
+      <WrongInst_Cur>Неправильная установка текущее</WrongInst_Cur>
       <TimeSyncErr_Cur>Ошибка синхронизации времени текущее </TimeSyncErr_Cur>
       <PowerOff_Cur>Питание выключено текущее</PowerOff_Cur>
       <TurnOffbyTempr_Cur>Отключение по температуре текущее</TurnOffbyTempr_Cur>
@@ -792,7 +792,7 @@
       <TurnOffbyPower_Hour>Отключение при превышении активной мощности часовой</TurnOffbyPower_Hour>
       <TurnOffbyExt_Hour>Принудительное отключение из Центра часовой</TurnOffbyExt_Hour>
       <DevError_Hour>Ошибка устройства часовой</DevError_Hour>
-      <WrongInst_Hour>НеправильнУстановка_Час</WrongInst_Hour>
+      <WrongInst_Hour>Неправильная установка часовое</WrongInst_Hour>
       <TimeNotSync_Hour>Время не синхронизировано часовой</TimeNotSync_Hour>
       <TimeSyncErr_Hour>Ошибка синхронизации времени часовой</TimeSyncErr_Hour>
       <PowerOff_Hour>Питание выключено часовой</PowerOff_Hour>
@@ -810,7 +810,7 @@
       <TurnOffbyPower_Async>Отключение при превышении активной мощности асинхронное</TurnOffbyPower_Async>
       <TurnOffbyExt_Async>Принудительное отключение из Центра асинхронное</TurnOffbyExt_Async>
       <DevError_Async>Ошибка устройства асинхронный</DevError_Async>
-      <WrongInst_Async>WrongInst_Async</WrongInst_Async>
+      <WrongInst_Async>Неправильная установка асинхронное</WrongInst_Async>
       <TimeNotSync_Async>Время не синхронизировано асинхронное</TimeNotSync_Async>
       <TimeSyncErr_Async>Ошибка синхронизации времени асинхронное</TimeSyncErr_Async>
       <PowerOff_Async>Питание выключено асинхронное</PowerOff_Async>
@@ -2968,8 +2968,8 @@
       <WatchdogError_11_Cur>WatchdogError_11_Cur</WatchdogError_11_Cur>
       <WatchdogError_12>WatchdogError_12</WatchdogError_12>
       <WatchdogError_12_Cur>WatchdogError_12_Cur</WatchdogError_12_Cur>
-      <WrongInst_Day>WrongInst_Day</WrongInst_Day>
-      <WrongVoltager_Async>WrongVoltager_Async</WrongVoltager_Async>
+      <WrongInst_Day>Неправильная установка суточное</WrongInst_Day>
+      <WrongVoltager_Async>НекачествНапряж_Асинх</WrongVoltager_Async>
       <WrongVoltager_Cur>НекачествНапряж_Текущ</WrongVoltager_Cur>
       <WrongVoltager_Day>НекачествНапряж_Сутки</WrongVoltager_Day>
       <SwitchOFF_HighVoltage_Ub1>Отключение по скачку напряжения L2</SwitchOFF_HighVoltage_Ub1>
@@ -3198,8 +3198,8 @@
       <AllTypes>Все типы</AllTypes>
       <Of>из</Of>
       <FormAlarmExeptionsByDevice>Список исключаемых аварий для устройств</FormAlarmExeptionsByDevice>
-      <AvailableAlarms>available alarms:</AvailableAlarms>
-      <IgnoredAlarms>ignored alarms:</IgnoredAlarms>
+      <AvailableAlarms>Доступные сигналы тревоги:</AvailableAlarms>
+      <IgnoredAlarms>Игнорируемые сигналы тревоги:</IgnoredAlarms>
       <Cancel>Отмена</Cancel>
     </Values>
     <Menu>
@@ -6902,7 +6902,7 @@
       <WarnTempr_Hour>ПредупрТемп_Час</WarnTempr_Hour>
       <WatchdogError>Ошибка защиты watchdog:</WatchdogError>
       <WrongInst>НеправильнУстановка</WrongInst>
-      <WrongInst_Async>WrongInst_Async</WrongInst_Async>
+      <WrongInst_Async>Неправильная установка асинхронное</WrongInst_Async>
       <WrongInst_Cur>НеправильнУстановка_Текущ</WrongInst_Cur>
       <WrongInst_Hour>НеправильнУстановка_Час</WrongInst_Hour>
       <No>Нет</No>
