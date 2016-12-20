@@ -5509,18 +5509,18 @@
       <NameLabel>Имя шаблона:</NameLabel>
     </TemplateForm>
     <Templates>
-      <energy_NewtonMeter>energy_NewtonMeter</energy_NewtonMeter>
-      <energy_Joule>energy_Joule</energy_Joule>
+      <energy_NewtonMeter>Ньютон-метр</energy_NewtonMeter>
+      <energy_Joule>Джоуль</energy_Joule>
       <energy_Wh>Вт*ч</energy_Wh>
-      <energy_kWh>energy_kWh</energy_kWh>
+      <energy_kWh>кВ*ч</energy_kWh>
       <Unit>Единица</Unit>
       <Scaler>Делитель частоты</Scaler>
       <Precision>Точность</Precision>
       <ShowGrad>Показать разницу</ShowGrad>
       <None>Отсутствует</None>
-      <current_KiloAmpere>current_KiloAmpere</current_KiloAmpere>
+      <current_KiloAmpere>Килоампер</current_KiloAmpere>
       <current_Ampere>Ампер</current_Ampere>
-      <current_MilliAmpere>current_MilliAmpere</current_MilliAmpere>
+      <current_MilliAmpere>Миллиампер</current_MilliAmpere>
       <power_JPerHour>power_JPerHour</power_JPerHour>
       <power_W>Вт</power_W>
       <time_Year>Год</time_Year>
