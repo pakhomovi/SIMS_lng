@@ -5061,8 +5061,8 @@
       <SumInstantaneousActivePower_L2>SumInstantaneousActivePower_L2</SumInstantaneousActivePower_L2>
       <SumInstantaneousActivePower_L3>SumInstantaneousActivePower_L3</SumInstantaneousActivePower_L3>
       <InstantaneousActivePowerExport>InstantaneousActivePowerExport</InstantaneousActivePowerExport>
-      <AbsoluteInstantaneousActivePower>AbsoluteInstantaneousActivePower</AbsoluteInstantaneousActivePower>
-      <TotalSumInstantaneousActivePower>TotalSumInstantaneousActivePower</TotalSumInstantaneousActivePower>
+      <AbsoluteInstantaneousActivePower>Активная мощность, по модулю</AbsoluteInstantaneousActivePower>
+      <TotalSumInstantaneousActivePower>Активная мощность</TotalSumInstantaneousActivePower>
       <ActiveEnergyImportBillingIncremental>ActiveEnergyImportBillingIncremental</ActiveEnergyImportBillingIncremental>
       <ActiveEnergyExportBillingIncremental>ActiveEnergyExportBillingIncremental</ActiveEnergyExportBillingIncremental>
       <ReactEnergyImpBillingIncremental>ReactEnergyImpBillingIncremental</ReactEnergyImpBillingIncremental>
@@ -6693,8 +6693,8 @@
       <AbsoluteActiveEnergyRate5>AbsoluteActiveEnergyRate5</AbsoluteActiveEnergyRate5>
       <AbsoluteActiveEnergyRate6>AbsoluteActiveEnergyRate6</AbsoluteActiveEnergyRate6>
       <IncrementTotalAbsoluteActiveEnergyBillingProfile>IncrementTotalAbsoluteActiveEnergyBillingProfile</IncrementTotalAbsoluteActiveEnergyBillingProfile>
-      <AbsoluteInstantaneousActivePower>AbsoluteInstantaneousActivePower</AbsoluteInstantaneousActivePower>
-      <TotalSumInstantaneousActivePower>TotalSumInstantaneousActivePower</TotalSumInstantaneousActivePower>
+      <AbsoluteInstantaneousActivePower>Активная мощность, по модулю</AbsoluteInstantaneousActivePower>
+      <TotalSumInstantaneousActivePower>Активная мощность</TotalSumInstantaneousActivePower>
       <SumInstantaneousActivePower_L1>SumInstantaneousActivePower_L1</SumInstantaneousActivePower_L1>
       <InstantaneousActivePowerImport>InstantaneousActivePowerImport</InstantaneousActivePowerImport>
       <InstantaneousActivePowerExport>InstantaneousActivePowerExport</InstantaneousActivePowerExport>
@@ -7949,7 +7949,7 @@
       <Device_Replacement_History>История замены устройств</Device_Replacement_History>
       <Measurement_Point_Device_History>Учётная точка, история устройства</Measurement_Point_Device_History>
       <Resource>Ресурс</Resource>
-      <LogID>LogID</LogID>
+      <LogID>Логический ID</LogID>
       <EAN_Code>EAN код</EAN_Code>
       <Interface>Интерфейс</Interface>
       <DevType>Тип устройства</DevType>
@@ -8195,29 +8195,29 @@
   </BalCPSet>
   <BalCPDevHistory>
     <BalCPDevHistory>
-      <Device_Replacement_History>Device Replacement History</Device_Replacement_History>
+      <Device_Replacement_History>История замены устройства</Device_Replacement_History>
       <Measurement_Point_Device_History>Measurement Point Device History</Measurement_Point_Device_History>
-      <Resource>Resource</Resource>
-      <LogID>LogID</LogID>
+      <Resource>Ресурс</Resource>
+      <LogID>Логический ID</LogID>
       <EAN_Code>EAN код</EAN_Code>
       <Interface>Интерфейс</Interface>
-      <DevType>DevType</DevType>
+      <DevType>Тип устройства</DevType>
       <DevStatus>DevStatus</DevStatus>
       <Date_replaced>Дата замены</Date_replaced>
     </BalCPDevHistory>
   </BalCPDevHistory>
   <BalSelectDevice>
     <BalSelectDevice>
-      <Physical_devices>Physical devices</Physical_devices>
-      <Canc_el>Canc&amp;el</Canc_el>
-      <Select_Device>Select Device</Select_Device>
+      <Physical_devices>Физические устройства</Physical_devices>
+      <Canc_el>&amp;Отмена</Canc_el>
+      <Select_Device>Выберете устройство</Select_Device>
       <Devices_of_resource_0>Devices of resource '{0}'</Devices_of_resource_0>
-      <Electro>Electro</Electro>
-      <LogicalID>LogicalID</LogicalID>
-      <Producer>Producer</Producer>
-      <DevType>DevType</DevType>
-      <Status>Status</Status>
-      <StatusChanged>StatusChanged</StatusChanged>
+      <Electro>Электро</Electro>
+      <LogicalID>Логический ID</LogicalID>
+      <Producer>Производитель</Producer>
+      <DevType>Тип устройства</DevType>
+      <Status>Статус устройства</Status>
+      <StatusChanged>Изменение статуса</StatusChanged>
     </BalSelectDevice>
   </BalSelectDevice>
   <BalanceGroupFind>
