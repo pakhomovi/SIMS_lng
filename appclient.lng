@@ -627,8 +627,8 @@
       <Monthly>Месячный</Monthly>
       <Period>За период</Period>
       <No_data>Нет данных</No_data>
-      <Incomplete>Неполные данные</Incomplete>
-      <Imbalance>Не баланс</Imbalance>
+      <Incomplete>Incomplete</Incomplete>
+      <Imbalance>Imbalance</Imbalance>
       <Control_point_manager_GetBalance_error>Control point manager GetBalance error</Control_point_manager_GetBalance_error>
       <Sunday>Воскресенье</Sunday>
       <Monday>Понедельник</Monday>
