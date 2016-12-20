@@ -1,0 +1,3 @@
+Strings.DeviceReference.ParamNames.SumInstantaneousActivePower_L3.text		en	SumInstantaneousActivePower_L3
+Strings.DeviceReference.ParamNames.SumInstantaneousActivePower_L2.text		en	SumInstantaneousActivePower_L2
+Strings.DeviceReference.ParamNames.SumInstantaneousActivePower_L1.text		en	SumInstantaneousActivePower_L1
