@@ -612,11 +612,11 @@
       <Status>Состояние баланса</Status>
       <Start>Начальные данные</Start>
       <End>Конечные данные</End>
-      <Sum_Total_at_the_input>Сумма на входе, Вт·ч</Sum_Total_at_the_input>
-      <Sum_Total_at_the_output>Сумма на выходе, Вт·ч</Sum_Total_at_the_output>
+      <Sum_Total_at_the_input>Сумма на входе, Вт*ч</Sum_Total_at_the_input>
+      <Sum_Total_at_the_output>Сумма на выходе, Вт*ч</Sum_Total_at_the_output>
       <at_the_input>Число точек на входе</at_the_input>
       <at_the_output>Число точек на выходе</at_the_output>
-      <Absolute_imbalance>Абсолютный дисбаланс, Вт·ч</Absolute_imbalance>
+      <Absolute_imbalance>Абсолютный дисбаланс, Вт*ч</Absolute_imbalance>
       <Relative_imbalance_>Относительный дисбаланс,%</Relative_imbalance_>
       <Balance_Report>Балансовый отчёт</Balance_Report>
       <Fifteen_Minutes>15 минутный</Fifteen_Minutes>
@@ -627,8 +627,8 @@
       <Monthly>Месячный</Monthly>
       <Period>За период</Period>
       <No_data>Нет данных</No_data>
-      <Incomplete>Неполные данные</Incomplete>
-      <Imbalance>Не баланс</Imbalance>
+      <Incomplete>Incomplete</Incomplete>
+      <Imbalance>Imbalance</Imbalance>
       <Control_point_manager_GetBalance_error>Control point manager GetBalance error</Control_point_manager_GetBalance_error>
       <Sunday>Воскресенье</Sunday>
       <Monday>Понедельник</Monday>
@@ -3684,9 +3684,9 @@
       <Config>Конфиг</Config>
       <Config_Device_ID>Конфигурирование / ID устройства</Config_Device_ID>
       <Logical_ID>Логический ID:</Logical_ID>
-      <kW_h>кВт·ч</kW_h>
+      <kW_h>кВт*ч</kW_h>
       <kW>кВт</kW>
-      <kVARH>кВАР·ч</kVARH>
+      <kVARH>кВАР*ч</kVARH>
       <kVAR>кВАР</kVAR>
       <by_default>по умолчанию</by_default>
       <Cancel>Отмена</Cancel>
@@ -4025,7 +4025,7 @@
       <V>В</V>
       <VoltageCh3>Напряжение_фаза_C</VoltageCh3>
       <TotActEnCh2>СуммАктЭнФазаВ</TotActEnCh2>
-      <Wh>Вт·ч</Wh>
+      <Wh>Вт*ч</Wh>
       <CurActPowerCh2>ТекущАктМощнФазаВ</CurActPowerCh2>
       <W>Вт</W>
       <WorkTimeCh2>Рабочее время</WorkTimeCh2>
@@ -5541,7 +5541,7 @@
     <Templates>
       <energy_NewtonMeter>Ньютон-метр</energy_NewtonMeter>
       <energy_Joule>Джоуль</energy_Joule>
-      <energy_Wh>Вт·ч</energy_Wh>
+      <energy_Wh>Вт*ч</energy_Wh>
       <energy_kWh>кВ*ч</energy_kWh>
       <Unit>Единица</Unit>
       <Scaler>Делитель частоты</Scaler>
@@ -7028,7 +7028,7 @@
       <reactive_power>вар</reactive_power>
       <other>д/з</other>
       <frequency>Гц</frequency>
-      <active_energy>Вт·ч</active_energy>
+      <active_energy>Вт*ч</active_energy>
     </Units>
     <ParamShortNames>
       <Address>Адрес</Address>
@@ -8186,30 +8186,30 @@
       <_arByColumnHeaderMI>by column header</_arByColumnHeaderMI>
       <_arByDisplayedCellsMI>by displayed cells</_arByDisplayedCellsMI>
       <_arByDisplayedCellsExceptHeaderMI>by displayed cells except header</_arByDisplayedCellsExceptHeaderMI>
-      <_quickSearchL>Quick search:</_quickSearchL>
+      <_quickSearchL>Быстрый поиск:</_quickSearchL>
       <clearFiltersB>Reset all filters</clearFiltersB>
       <Count>Count</Count>
     </AdvancedGrid>
     <EvLogDevReadForm>
-      <EvLogDevReadForm>Event Log Device Reader</EvLogDevReadForm>
+      <EvLogDevReadForm>Журнал событий устройства</EvLogDevReadForm>
       <labelSendMode>SendMode</labelSendMode>
-      <tabPageTimeInterval>Time interval</tabPageTimeInterval>
+      <tabPageTimeInterval>Временной интервал</tabPageTimeInterval>
       <checkBoxDaylightSavingTo>Daylight saving</checkBoxDaylightSavingTo>
       <checkBoxDaylightSavingFrom>Daylight saving</checkBoxDaylightSavingFrom>
-      <lbTo>DateTo</lbTo>
-      <lbFrom>DateFrom</lbFrom>
-      <tabPageIndex>Index</tabPageIndex>
-      <labelEntriesCount>Entries count</labelEntriesCount>
-      <btCancel>Cancel</btCancel>
-      <btGet>Get Log</btGet>
-      <_quickSearchL>Quick search:</_quickSearchL>
+      <lbTo>До (даты)</lbTo>
+      <lbFrom>От (даты)</lbFrom>
+      <tabPageIndex>По записям</tabPageIndex>
+      <labelEntriesCount>Количество записей</labelEntriesCount>
+      <btCancel>Отмена</btCancel>
+      <btGet>Запросить журнал</btGet>
+      <_quickSearchL>Быстрый поиск:</_quickSearchL>
     </EvLogDevReadForm>
     <RunTime>
       <AlsoRemains>also remains</AlsoRemains>
-      <btGet>Get Log</btGet>
+      <btGet>Запросить журнал</btGet>
     </RunTime>
     <Caption>
-      <EvLogDevReaderCli>Event Log for Devices </EvLogDevReaderCli>
+      <EvLogDevReaderCli>Просмотр журнала событий устройства</EvLogDevReaderCli>
     </Caption>
   </EvLogDevReaderCli>
   <StoredDataManagerCli>
