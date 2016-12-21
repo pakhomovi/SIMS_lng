@@ -612,11 +612,11 @@
       <Status>Состояние баланса</Status>
       <Start>Начальные данные</Start>
       <End>Конечные данные</End>
-      <Sum_Total_at_the_input>Сумма на входе, Вт*ч</Sum_Total_at_the_input>
-      <Sum_Total_at_the_output>Сумма на выходе, Вт*ч</Sum_Total_at_the_output>
+      <Sum_Total_at_the_input>Сумма на входе, Вт·ч</Sum_Total_at_the_input>
+      <Sum_Total_at_the_output>Сумма на выходе, Вт·ч</Sum_Total_at_the_output>
       <at_the_input>Число точек на входе</at_the_input>
       <at_the_output>Число точек на выходе</at_the_output>
-      <Absolute_imbalance>Абсолютный дисбаланс, Вт*ч</Absolute_imbalance>
+      <Absolute_imbalance>Абсолютный дисбаланс, Вт·ч</Absolute_imbalance>
       <Relative_imbalance_>Относительный дисбаланс,%</Relative_imbalance_>
       <Balance_Report>Балансовый отчёт</Balance_Report>
       <Fifteen_Minutes>15 минутный</Fifteen_Minutes>
@@ -627,8 +627,8 @@
       <Monthly>Месячный</Monthly>
       <Period>За период</Period>
       <No_data>Нет данных</No_data>
-      <Incomplete>Incomplete</Incomplete>
-      <Imbalance>Imbalance</Imbalance>
+      <Incomplete>Неполные данные</Incomplete>
+      <Imbalance>Не баланс</Imbalance>
       <Control_point_manager_GetBalance_error>Control point manager GetBalance error</Control_point_manager_GetBalance_error>
       <Sunday>Воскресенье</Sunday>
       <Monday>Понедельник</Monday>
@@ -3684,9 +3684,9 @@
       <Config>Конфиг</Config>
       <Config_Device_ID>Конфигурирование / ID устройства</Config_Device_ID>
       <Logical_ID>Логический ID:</Logical_ID>
-      <kW_h>кВт*ч</kW_h>
+      <kW_h>кВт·ч</kW_h>
       <kW>кВт</kW>
-      <kVARH>кВАР*ч</kVARH>
+      <kVARH>кВАР·ч</kVARH>
       <kVAR>кВАР</kVAR>
       <by_default>по умолчанию</by_default>
       <Cancel>Отмена</Cancel>
@@ -3875,6 +3875,31 @@
       <IdleTime>IdleTime</IdleTime>
       <Ch2>Ch2</Ch2>
       <Ch3>Ch3</Ch3>
+      <initiator_electrical_phase>initiator electrical phase</initiator_electrical_phase>
+      <delta_electrical_phase>delta electrical phase</delta_electrical_phase>
+      <max_receiving_gain>max receiving gain</max_receiving_gain>
+      <max_transmitting_gain>max transmitting gain</max_transmitting_gain>
+      <search_initiator_gain>search initiator gain</search_initiator_gain>
+      <mac_address>mac address</mac_address>
+      <repeater>repeater</repeater>
+      <repeater_status>repeater status</repeater_status>
+      <min_delta_credit>min delta credit</min_delta_credit>
+      <initiator_mac_address>initiator mac address</initiator_mac_address>
+      <synchronization_locked>synchronization locked</synchronization_locked>
+      <transmition_speed>transmition speed</transmition_speed>
+      <zero_crossing_offset>zero crossing offset</zero_crossing_offset>
+      <three_phase_mode>three phase mode</three_phase_mode>
+      <DC_mode>DC mode</DC_mode>
+      <windowed_mode>windowed mode</windowed_mode>
+      <auto_sync_reject>auto sync reject</auto_sync_reject>
+      <synchronization_phase>synchronization phase</synchronization_phase>
+      <AGC_level>AGC level</AGC_level>
+      <mains_period>mains period</mains_period>
+      <FEC_enable>FEC enable</FEC_enable>
+      <repetitions_counter>repetitions counter</repetitions_counter>
+      <transmissions_counter>transmissions counter</transmissions_counter>
+      <CRC_OK_frames_counter>CRC OK frames counter</CRC_OK_frames_counter>
+      <CRC_NOK_frames_counter>CRC NOK frames counter</CRC_NOK_frames_counter>
     </GroupConfig>
     <AutoDataPresence>
       <Auto_Data_presence>Наличие Автоматических Данных</Auto_Data_presence>
@@ -4000,7 +4025,7 @@
       <V>В</V>
       <VoltageCh3>Напряжение_фаза_C</VoltageCh3>
       <TotActEnCh2>СуммАктЭнФазаВ</TotActEnCh2>
-      <Wh>Вт*ч</Wh>
+      <Wh>Вт·ч</Wh>
       <CurActPowerCh2>ТекущАктМощнФазаВ</CurActPowerCh2>
       <W>Вт</W>
       <WorkTimeCh2>Рабочее время</WorkTimeCh2>
@@ -5123,6 +5148,11 @@
       <VoltageLastAvgL3>VoltageLastAvgL3</VoltageLastAvgL3>
       <configs_selected>config(s) selected</configs_selected>
       <Set_operation>Set operation</Set_operation>
+      <The_value_does_not_satisfy_the_constraint>The value does not satisfy the constraint!</The_value_does_not_satisfy_the_constraint>
+      <Actual_value>Actual value</Actual_value>
+      <Constraint>Constraint</Constraint>
+      <Dont_send>Don't send</Dont_send>
+      <Skipped>Skipped</Skipped>
     </DeviceConfig>
     <BitField>
       <af_ClockInvalid>Неверное Время:</af_ClockInvalid>
@@ -5511,7 +5541,7 @@
     <Templates>
       <energy_NewtonMeter>Ньютон-метр</energy_NewtonMeter>
       <energy_Joule>Джоуль</energy_Joule>
-      <energy_Wh>Вт*ч</energy_Wh>
+      <energy_Wh>Вт·ч</energy_Wh>
       <energy_kWh>кВ*ч</energy_kWh>
       <Unit>Единица</Unit>
       <Scaler>Делитель частоты</Scaler>
@@ -6986,6 +7016,8 @@
       <UnwarrantedTime4>UnwarrantedTime4</UnwarrantedTime4>
       <PowerDown2>Питание отключено 2</PowerDown2>
       <WarnPower>ПредупрМощность</WarnPower>
+      <PowerFail>PowerFail</PowerFail>
+      <RebootWithoutLossOfData>RebootWithoutLossOfData</RebootWithoutLossOfData>
     </Parameters>
     <Units>
       <time_second>сек</time_second>
@@ -6996,7 +7028,7 @@
       <reactive_power>вар</reactive_power>
       <other>д/з</other>
       <frequency>Гц</frequency>
-      <active_energy>Вт*ч</active_energy>
+      <active_energy>Вт·ч</active_energy>
     </Units>
     <ParamShortNames>
       <Address>Адрес</Address>
@@ -8139,6 +8171,46 @@
     <Menu>
       <EvLogDevReaderCli>Просмотр журнала событий устройства</EvLogDevReaderCli>
     </Menu>
+    <SendMode>
+      <Parallel>Parallel</Parallel>
+      <Sequentially>Sequentially</Sequentially>
+    </SendMode>
+    <AdvancedGrid>
+      <_autoResizeColumnsMI>Auto resize columns</_autoResizeColumnsMI>
+      <_columnsMI>Columns</_columnsMI>
+      <_quickSearchToolStripMenuItem>Quick search</_quickSearchToolStripMenuItem>
+      <printToolStripMenuItem>Report</printToolStripMenuItem>
+      <_chartsMI>Chart</_chartsMI>
+      <saveToCsvToolStripMenuItem>Save to CSV...</saveToCsvToolStripMenuItem>
+      <_arByAllCellsExceptHeaderMI>by all cells except header</_arByAllCellsExceptHeaderMI>
+      <_arByColumnHeaderMI>by column header</_arByColumnHeaderMI>
+      <_arByDisplayedCellsMI>by displayed cells</_arByDisplayedCellsMI>
+      <_arByDisplayedCellsExceptHeaderMI>by displayed cells except header</_arByDisplayedCellsExceptHeaderMI>
+      <_quickSearchL>Quick search:</_quickSearchL>
+      <clearFiltersB>Reset all filters</clearFiltersB>
+      <Count>Count</Count>
+    </AdvancedGrid>
+    <EvLogDevReadForm>
+      <EvLogDevReadForm>Event Log Device Reader</EvLogDevReadForm>
+      <labelSendMode>SendMode</labelSendMode>
+      <tabPageTimeInterval>Time interval</tabPageTimeInterval>
+      <checkBoxDaylightSavingTo>Daylight saving</checkBoxDaylightSavingTo>
+      <checkBoxDaylightSavingFrom>Daylight saving</checkBoxDaylightSavingFrom>
+      <lbTo>DateTo</lbTo>
+      <lbFrom>DateFrom</lbFrom>
+      <tabPageIndex>Index</tabPageIndex>
+      <labelEntriesCount>Entries count</labelEntriesCount>
+      <btCancel>Cancel</btCancel>
+      <btGet>Get Log</btGet>
+      <_quickSearchL>Quick search:</_quickSearchL>
+    </EvLogDevReadForm>
+    <RunTime>
+      <AlsoRemains>also remains</AlsoRemains>
+      <btGet>Get Log</btGet>
+    </RunTime>
+    <Caption>
+      <EvLogDevReaderCli>Event Log for Devices </EvLogDevReaderCli>
+    </Caption>
   </EvLogDevReaderCli>
   <StoredDataManagerCli>
     <StoredDataManagerCli>
