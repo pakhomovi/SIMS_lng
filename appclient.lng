@@ -370,7 +370,7 @@
       <mnNewUserText>Новый пользователь</mnNewUserText>
       <mnExportText>Экспорт</mnExportText>
       <mnSetPasswordText>Задать паспорт</mnSetPasswordText>
-      <mnSystemVersion>Версия системы (201216)</mnSystemVersion>
+      <mnSystemVersion>Версия системы (231216)</mnSystemVersion>
       <mnHelp>Помощь</mnHelp>
       <mnUserEvents>События пользователя</mnUserEvents>
       <mnGroupEvents>Групповые события</mnGroupEvents>
@@ -1091,7 +1091,7 @@
       <AssociationManagementClientUnLock>AssociationManagementClientUnLock</AssociationManagementClientUnLock>
       <AssociationFirmwareUpdateClientUnLock>AssociationFirmwareUpdateClientUnLock</AssociationFirmwareUpdateClientUnLock>
       <AssociationHanControllerClientUnLock>AssociationHanControllerClientUnLock</AssociationHanControllerClientUnLock>
-      <TotalActivePower>Активная мощность, суммарная</TotalActivePower>
+      <TotalActivePower>Активная мощность</TotalActivePower>
       <ActiveDemand>ActiveDemand</ActiveDemand>
       <StandardEventLogCleared>StandardEventLogCleared</StandardEventLogCleared>
       <CodeEventForFraudDetectionLog>События журнала воровства </CodeEventForFraudDetectionLog>
@@ -4039,8 +4039,8 @@
       <response_s_received_from>получено ответов от</response_s_received_from>
       <unknown_time>&lt;неизвестное время&gt;</unknown_time>
       <unknown_data_type>неизвестный тип данных</unknown_data_type>
-      <for>for</for>
-      <timeout_from_0>timeout from {0}</timeout_from_0>
+      <for>для</for>
+      <timeout_from_0>таймаут от {0}</timeout_from_0>
     </OnlineRequests>
     <TariffReference>
       <Tariff_rates>Тарифные сетки</Tariff_rates>
@@ -4415,8 +4415,8 @@
       <ActivePowerExportL1>Активная мощность, экспорт L1</ActivePowerExportL1>
       <ReactPowerImportL1>Реактивная мощность, импорт L1</ReactPowerImportL1>
       <ReactPowerExportL1>Реактивная мощность, экспорт L1</ReactPowerExportL1>
-      <InstantaneousActivePower>Активная мощность, мгновенная</InstantaneousActivePower>
-      <TotalActivePower>Активная мощность, суммарная</TotalActivePower>
+      <InstantaneousActivePower>Активная мощность, по модулю</InstantaneousActivePower>
+      <TotalActivePower>Активная мощность</TotalActivePower>
       <Temperature>Температура</Temperature>
       <BatteryVoltage>Напряжение батареи</BatteryVoltage>
       <NominalVoltage>Напряжение, номинальное</NominalVoltage>
@@ -5075,13 +5075,13 @@
       <ExtraSwitchSpecDaysActive_>реле дополнительное, специальные дни:</ExtraSwitchSpecDaysActive_>
       <ExtraSwitchSpecDaysPassive_>реле дополнительное, специальные дни:</ExtraSwitchSpecDaysPassive_>
       <InstantaneousActivePowerImport>InstantaneousActivePowerImport</InstantaneousActivePowerImport>
-      <AbsoluteActiveEnergyTotal>AbsoluteActiveEnergyTotal</AbsoluteActiveEnergyTotal>
-      <AbsoluteActiveEnergyRate1>AbsoluteActiveEnergyRate1</AbsoluteActiveEnergyRate1>
-      <AbsoluteActiveEnergyRate2>AbsoluteActiveEnergyRate2</AbsoluteActiveEnergyRate2>
-      <AbsoluteActiveEnergyRate3>AbsoluteActiveEnergyRate3</AbsoluteActiveEnergyRate3>
-      <AbsoluteActiveEnergyRate4>AbsoluteActiveEnergyRate4</AbsoluteActiveEnergyRate4>
-      <AbsoluteActiveEnergyRate5>AbsoluteActiveEnergyRate5</AbsoluteActiveEnergyRate5>
-      <AbsoluteActiveEnergyRate6>AbsoluteActiveEnergyRate6</AbsoluteActiveEnergyRate6>
+      <AbsoluteActiveEnergyTotal>Активная энергия, суммарная</AbsoluteActiveEnergyTotal>
+      <AbsoluteActiveEnergyRate1>Активная энергия, суммарная, тариф1</AbsoluteActiveEnergyRate1>
+      <AbsoluteActiveEnergyRate2>Активная энергия, суммарная, тариф2</AbsoluteActiveEnergyRate2>
+      <AbsoluteActiveEnergyRate3>Активная энергия, суммарная, тариф3</AbsoluteActiveEnergyRate3>
+      <AbsoluteActiveEnergyRate4>Активная энергия, суммарная, тариф4</AbsoluteActiveEnergyRate4>
+      <AbsoluteActiveEnergyRate5>Активная энергия, суммарная, тариф5</AbsoluteActiveEnergyRate5>
+      <AbsoluteActiveEnergyRate6>Активная энергия, суммарная, тариф6</AbsoluteActiveEnergyRate6>
       <SumInstantaneousActivePower_L1>SumInstantaneousActivePower_L1</SumInstantaneousActivePower_L1>
       <SumInstantaneousActivePower_L2>SumInstantaneousActivePower_L2</SumInstantaneousActivePower_L2>
       <SumInstantaneousActivePower_L3>SumInstantaneousActivePower_L3</SumInstantaneousActivePower_L3>
@@ -5781,7 +5781,7 @@
       <InstCurrentL1>Ток, мгновенный L1</InstCurrentL1>
       <InstCurrentL2>Ток, мгновенный L2</InstCurrentL2>
       <Idif>Дифференциальный ток:</Idif>
-      <InstantaneousActivePower>Активная мощность, мгновенная</InstantaneousActivePower>
+      <InstantaneousActivePower>Активная мощность, по модулю</InstantaneousActivePower>
       <ActivePowerL1>Активная мощность L1</ActivePowerL1>
       <ActivePowerL2>Активная мощность L2</ActivePowerL2>
       <ReactPowerImp>Реактивная мощность, импорт</ReactPowerImp>
@@ -5814,7 +5814,7 @@
       <VoltagePhaseUnbalance>Небаланс напряжения</VoltagePhaseUnbalance>
       <InstCurrentL3>Ток, мгновенный L3</InstCurrentL3>
       <CurrentCh4>Ток мгновенный N</CurrentCh4>
-      <TotalActivePower>Активная мощность, суммарная</TotalActivePower>
+      <TotalActivePower>Активная мощность</TotalActivePower>
       <ActivePowerL3>Активная мощность L3</ActivePowerL3>
       <PowerPhaseUnbalance>Небаланс мощности</PowerPhaseUnbalance>
       <ReactPowerImport>Реактивная мощность, импорт</ReactPowerImport>
@@ -6313,7 +6313,7 @@
       <ActPowerA>Активная энергия A</ActPowerA>
       <ActPowerB>Активная энергия B</ActPowerB>
       <ActPowerC>Активная энергия C</ActPowerC>
-      <TotalReactEnergy>Реактивная энергия, суммарная</TotalReactEnergy>
+      <TotalReactEnergy>Реактивная энергия, суммарная по квадрантам</TotalReactEnergy>
       <ReactPower>Реактивная мощность</ReactPower>
       <OnBatteryHours>OnBatteryHours</OnBatteryHours>
       <RemainingBatteryCapacity>RemainingBatteryCapacity</RemainingBatteryCapacity>
@@ -6632,7 +6632,7 @@
       <ReactEnergyImpBillingIncrementalRate4>Реактивная энергия, импорт, тариф4, дельта биллинг</ReactEnergyImpBillingIncrementalRate4>
       <ReactEnergyImpBillingIncrementalRate5>Реактивная энергия, импорт, тариф5, дельта биллинг</ReactEnergyImpBillingIncrementalRate5>
       <ReactEnergyImpBillingIncrementalRate6>Реактивная энергия, импорт, тариф6, дельта биллинг</ReactEnergyImpBillingIncrementalRate6>
-      <ReactEnergyExpBillingIncrementalRate1>;</ReactEnergyExpBillingIncrementalRate1>
+      <ReactEnergyExpBillingIncrementalRate1>ReactEnergyExpBillingIncrementalRate1</ReactEnergyExpBillingIncrementalRate1>
       <ReactEnergyExpBillingIncrementalRate2>Реактивная энергия, экспорт, тариф2, дельта биллинг</ReactEnergyExpBillingIncrementalRate2>
       <ReactEnergyExpBillingIncrementalRate3>Реактивная энергия, экспорт, тариф3, дельта биллинг</ReactEnergyExpBillingIncrementalRate3>
       <ReactEnergyExpBillingIncrementalRate4>Реактивная энергия, экспорт, тариф4, дельта биллинг</ReactEnergyExpBillingIncrementalRate4>
@@ -6715,13 +6715,13 @@
       <TimeoutNotAddressed>TimeoutNotAddressed</TimeoutNotAddressed>
       <PLC_Modem_Mode>PLC_Modem_Mode</PLC_Modem_Mode>
       <PLC_Communication_Phase>PLC_Communication_Phase</PLC_Communication_Phase>
-      <AbsoluteActiveEnergyTotal>AbsoluteActiveEnergyTotal</AbsoluteActiveEnergyTotal>
-      <AbsoluteActiveEnergyRate1>AbsoluteActiveEnergyRate1</AbsoluteActiveEnergyRate1>
-      <AbsoluteActiveEnergyRate2>AbsoluteActiveEnergyRate2</AbsoluteActiveEnergyRate2>
-      <AbsoluteActiveEnergyRate3>AbsoluteActiveEnergyRate3</AbsoluteActiveEnergyRate3>
-      <AbsoluteActiveEnergyRate4>AbsoluteActiveEnergyRate4</AbsoluteActiveEnergyRate4>
-      <AbsoluteActiveEnergyRate5>AbsoluteActiveEnergyRate5</AbsoluteActiveEnergyRate5>
-      <AbsoluteActiveEnergyRate6>AbsoluteActiveEnergyRate6</AbsoluteActiveEnergyRate6>
+      <AbsoluteActiveEnergyTotal>Активная энергия, суммарная</AbsoluteActiveEnergyTotal>
+      <AbsoluteActiveEnergyRate1>Активная энергия, суммарная, тариф1</AbsoluteActiveEnergyRate1>
+      <AbsoluteActiveEnergyRate2>Активная энергия, суммарная, тариф2</AbsoluteActiveEnergyRate2>
+      <AbsoluteActiveEnergyRate3>Активная энергия, суммарная, тариф3</AbsoluteActiveEnergyRate3>
+      <AbsoluteActiveEnergyRate4>Активная энергия, суммарная, тариф4</AbsoluteActiveEnergyRate4>
+      <AbsoluteActiveEnergyRate5>Активная энергия, суммарная, тариф5</AbsoluteActiveEnergyRate5>
+      <AbsoluteActiveEnergyRate6>Активная энергия, суммарная, тариф6</AbsoluteActiveEnergyRate6>
       <IncrementTotalAbsoluteActiveEnergyBillingProfile>IncrementTotalAbsoluteActiveEnergyBillingProfile</IncrementTotalAbsoluteActiveEnergyBillingProfile>
       <AbsoluteInstantaneousActivePower>Активная мощность, по модулю</AbsoluteInstantaneousActivePower>
       <TotalSumInstantaneousActivePower>Активная мощность</TotalSumInstantaneousActivePower>
