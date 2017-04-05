@@ -94,7 +94,7 @@
       <formatDeviceNotFoundAndIgnored>Устройство {0} не найдено и игнорируется.</formatDeviceNotFoundAndIgnored>
       <formatFoundMoreThanOneDevice>Обнаружено более одного устройства с {0}. {0} игнорируется.</formatFoundMoreThanOneDevice>
       <formatEANCodeIsSet>EAN код {0} установлен.</formatEANCodeIsSet>
-      <formatEANCodeIsIncorrect>EAN код {0} неверна!</formatEANCodeIsIncorrect>
+      <formatEANCodeIsIncorrect>EAN код {0} неверный!</formatEANCodeIsIncorrect>
       <formatDeviceAlredyHasAdditional>Усройство {0} уже имеет {1}со значением{2}и строка из импорта игнорирована.</formatDeviceAlredyHasAdditional>
       <formatAdditionalIsNotUnique>{0} {1} устройства {2} не единственный - проигнорировано.</formatAdditionalIsNotUnique>
       <formatLenghtExceedsMaximum>{0} длина = {1} превышает максимальное значение = {2}.</formatLenghtExceedsMaximum>
@@ -219,15 +219,15 @@
       <SIMSDevicesConfigurator>SIMSDevicesConfigurator</SIMSDevicesConfigurator>
       <SIMSSimpleUser>SIMSSimpleUser</SIMSSimpleUser>
       <SIMSTemplatesManager>SIMSTemplatesManager</SIMSTemplatesManager>
-      <Security>Безопасность</Security>
+      <Security>Security</Security>
       <DisplayData.Address>DisplayData.Address</DisplayData.Address>
       <DisplayData.GroupManager.Group>DisplayData.GroupManager.Group</DisplayData.GroupManager.Group>
       <DisplayData.GroupManager.GroupItem>DisplayData.GroupManager.GroupItem</DisplayData.GroupManager.GroupItem>
       <DisplayData.GroupManager.Address>DisplayData.GroupManager.Address</DisplayData.GroupManager.Address>
       <DisplayData.GroupManager.Device>DisplayData.GroupManager.Device</DisplayData.GroupManager.Device>
-      <ShowAlarms>Показать аварии</ShowAlarms>
-      <ShowAlarms.Groups>Групп</ShowAlarms.Groups>
-      <ShowAlarms.Objects>Объекты</ShowAlarms.Objects>
+      <ShowAlarms>ShowAlarms</ShowAlarms>
+      <ShowAlarms.Groups>ShowAlarms.Groups</ShowAlarms.Groups>
+      <ShowAlarms.Objects>ShowAlarms.Objects</ShowAlarms.Objects>
       <AlarmsProfiles>AlarmsProfiles</AlarmsProfiles>
       <AddressConfig>AddressConfig</AddressConfig>
       <SignalerOptions>SignalerOptions</SignalerOptions>
@@ -242,7 +242,7 @@
       <DeviceConfig.SSCStates.PopupMenu>DeviceConfig.SSCStates.PopupMenu</DeviceConfig.SSCStates.PopupMenu>
       <StsTokenTask>StsTokenTask</StsTokenTask>
       <SwitchTask>SwitchTask</SwitchTask>
-      <ConfigTask>Конфиг.Задание</ConfigTask>
+      <ConfigTask>ConfigTask</ConfigTask>
       <StoredDataManagerCli>Управление сохранёнными данными</StoredDataManagerCli>
       <AddressImport>AddressImport</AddressImport>
       <BalanceGroups.MainMenu.Manage>BalanceGroups.MainMenu.Manage</BalanceGroups.MainMenu.Manage>
@@ -282,9 +282,9 @@
       <GroupImport>GroupImport</GroupImport>
       <PiiGABClient.MainMenu.Show>PiiGABClient.MainMenu.Show</PiiGABClient.MainMenu.Show>
       <PriorityManagerCli>PriorityManagerCli</PriorityManagerCli>
-      <Transformator.PopupMenu.Add>Добавить</Transformator.PopupMenu.Add>
-      <Transformator.PopupMenu.Delete>Удалить</Transformator.PopupMenu.Delete>
-      <Transformator.PopupMenu.Edit>Изменить</Transformator.PopupMenu.Edit>
+      <Transformator.PopupMenu.Add>Добавить1</Transformator.PopupMenu.Add>
+      <Transformator.PopupMenu.Delete>Удалить1</Transformator.PopupMenu.Delete>
+      <Transformator.PopupMenu.Edit>Изменить1</Transformator.PopupMenu.Edit>
       <DeviceManager.MainMenu.Manage>DeviceManager.MainMenu.Manage</DeviceManager.MainMenu.Manage>
       <GroupManager.PopupMenu.DeleteCP>GroupManager.PopupMenu.DeleteCP</GroupManager.PopupMenu.DeleteCP>
       <GroupManager.PopupMenu.AddCP>GroupManager.PopupMenu.AddCP</GroupManager.PopupMenu.AddCP>
@@ -323,7 +323,7 @@
       <DCUManagerClient.ContextMenu.PingDCU>DCUManagerClient.ContextMenu.PingDCU</DCUManagerClient.ContextMenu.PingDCU>
       <DeviceConfig.MainMenu.Templates>DeviceConfig.MainMenu.Templates</DeviceConfig.MainMenu.Templates>
       <PendingRequests>PendingRequests</PendingRequests>
-      <Transformator.MainMenu>Главное меню</Transformator.MainMenu>
+      <Transformator.MainMenu>Transformator.MainMenu</Transformator.MainMenu>
       <InformationSystems.MainMenu.Manage>InformationSystems.MainMenu.Manage</InformationSystems.MainMenu.Manage>
       <GroupManager.PopupMenu.Copy>GroupManager.PopupMenu.Copy</GroupManager.PopupMenu.Copy>
       <DCUManagerClient.AddDCU>DCUManagerClient.AddDCU</DCUManagerClient.AddDCU>
@@ -370,7 +370,7 @@
       <mnNewUserText>Новый пользователь</mnNewUserText>
       <mnExportText>Экспорт</mnExportText>
       <mnSetPasswordText>Задать паспорт</mnSetPasswordText>
-      <mnSystemVersion>Версия системы (231216)</mnSystemVersion>
+      <mnSystemVersion>Версия системы (050417)</mnSystemVersion>
       <mnHelp>Помощь</mnHelp>
       <mnUserEvents>События пользователя</mnUserEvents>
       <mnGroupEvents>Групповые события</mnGroupEvents>
@@ -508,6 +508,7 @@
       <Object_Groups_Manager_is_unavailable>Объект группы управления недоступен!</Object_Groups_Manager_is_unavailable>
       <Are_you_sure_you_want_to_delete_selected_measurement_points>Вы уверены, что хотите удалить выбранные точки измерения?</Are_you_sure_you_want_to_delete_selected_measurement_points>
       <Remove_selected_measuring_points_from_group>Удалить отмеченные учётные точки из группы?</Remove_selected_measuring_points_from_group>
+      <Are_you_sure_you_want_delete_transformer_0>Вы уверены что хотите удалить трансформатор'{0}'?</Are_you_sure_you_want_delete_transformer_0>
     </ObjectGroups>
   </ObjectGroups>
   <AlarmsNotification>
@@ -3481,6 +3482,7 @@
       <DevicesWillBeAllowed>device(s) will be allowed</DevicesWillBeAllowed>
       <Continue>Продолжать</Continue>
       <Info>Управление</Info>
+      <DevStatus_Deactivated>Деактивированный</DevStatus_Deactivated>
     </DCUInfoForm>
   </DCUManagerClient>
   <ImageTransferManager>
@@ -4628,25 +4630,25 @@
       <ApparentEnergyExp_L1>Полная энергия, экспорт L1</ApparentEnergyExp_L1>
       <AMRProfileStatusForLoadProfileWithPeriod2>Статус AMR (Профиль2)</AMRProfileStatusForLoadProfileWithPeriod2>
       <BarCode>Штрихкод</BarCode>
-      <ActiveFirmwareVersion>Версия прошивки счётчика</ActiveFirmwareVersion>
+      <ActiveFirmwareVersion>Текущая версия прошивки</ActiveFirmwareVersion>
       <ActiveTOU>Активный тарифный план</ActiveTOU>
       <_Remove_>&lt;Удалить&gt;</_Remove_>
-      <CodeEventForStandardEventLog>События журнала</CodeEventForStandardEventLog>
+      <CodeEventForStandardEventLog>События стандартного журнала </CodeEventForStandardEventLog>
       <CurrentlyActiveTariffNumber>Текущий тариф</CurrentlyActiveTariffNumber>
-      <CodeEventForFraudDetectionLog>События журнала</CodeEventForFraudDetectionLog>
-      <CodeEventForDisconnectControlLog>События журнала</CodeEventForDisconnectControlLog>
+      <CodeEventForFraudDetectionLog>События журнала воровства </CodeEventForFraudDetectionLog>
+      <CodeEventForDisconnectControlLog>События журнала отключения</CodeEventForDisconnectControlLog>
       <PreviousConsumerDisconnector_ControlState_>PreviousConsumerDisconnector:ControlState </PreviousConsumerDisconnector_ControlState_>
       <ConsumerDisconnector_ControlState_>Состояние реле</ConsumerDisconnector_ControlState_>
-      <CodeEventForFirmwareEventLog>События журнала</CodeEventForFirmwareEventLog>
+      <CodeEventForFirmwareEventLog>События журнала прошивок</CodeEventForFirmwareEventLog>
       <DeviceID7>Идентификатор 7</DeviceID7>
-      <CodeEventForPowerQualityEventLog>События журнала</CodeEventForPowerQualityEventLog>
-      <CodeEventForDemandManagementLog>События журнала</CodeEventForDemandManagementLog>
-      <CodeEventForCommonEventLog>События журнала</CodeEventForCommonEventLog>
-      <CodeEventForSynchronizationEventLog>События журнала</CodeEventForSynchronizationEventLog>
+      <CodeEventForPowerQualityEventLog>События журнала порогов пересечения</CodeEventForPowerQualityEventLog>
+      <CodeEventForDemandManagementLog>События журнала управление нагрузкой</CodeEventForDemandManagementLog>
+      <CodeEventForCommonEventLog>События журнала состояние интерфейсов</CodeEventForCommonEventLog>
+      <CodeEventForSynchronizationEventLog>События журнала синхронизации времени</CodeEventForSynchronizationEventLog>
       <FormerClock>Время, до синхронизации</FormerClock>
-      <CodeEventForFinishedQualityEventLog>События журнала</CodeEventForFinishedQualityEventLog>
+      <CodeEventForFinishedQualityEventLog>События журнала порогов восстановления</CodeEventForFinishedQualityEventLog>
       <TimestampForPowerQualityLog>Дополнительная метка времени</TimestampForPowerQualityLog>
-      <CodeEventForExtraEventLog>События журнала</CodeEventForExtraEventLog>
+      <CodeEventForExtraEventLog>События журнала дополнительные</CodeEventForExtraEventLog>
       <ClockTimeShiftLimit>Максимальная погрешность часов</ClockTimeShiftLimit>
       <LocalTime>Местное время</LocalTime>
       <LocalDate>Местная дата</LocalDate>
@@ -4724,7 +4726,7 @@
       <threshold_normal__reactive_power>Значение уставки по реактивной мощности</threshold_normal__reactive_power>
       <threshold_normal__other>Значение уставки</threshold_normal__other>
       <threshold_normal__frequency>Значение уставки по частоте</threshold_normal__frequency>
-      <CodeEventForStandartEventLog>События журнала</CodeEventForStandartEventLog>
+      <CodeEventForStandartEventLog>События стандартного журнала</CodeEventForStandartEventLog>
       <DurationOfLongPowerFailuresInAnyPhase>Продолжительность длительных провалов напряжения</DurationOfLongPowerFailuresInAnyPhase>
       <NumberOfPowerFailuresInAnyPhases>Кол-во отключений напряжения по любой фазе</NumberOfPowerFailuresInAnyPhases>
       <NumberOfLongPowerFailuresInAnyPhases>Кол-во длительных провалов напряжения</NumberOfLongPowerFailuresInAnyPhases>
@@ -4766,7 +4768,7 @@
       <DemandAddax8_last_average_value>Расчётная величина 8: последнее среднее значение</DemandAddax8_last_average_value>
       <DemandAddax8_capture_time>Расчётная величина 8: интервал расчёта</DemandAddax8_capture_time>
       <DemandAddax8_value_of_object_2>Расчётная величина 8: значение второй величины</DemandAddax8_value_of_object_2>
-      <CodeEventForDisconnectorControlEventLog>События журнала</CodeEventForDisconnectorControlEventLog>
+      <CodeEventForDisconnectorControlEventLog>События журнала отключения нагрузки</CodeEventForDisconnectorControlEventLog>
       <VoltageLimitInfo_StartTime>VoltageLimitInfo:StartTime</VoltageLimitInfo_StartTime>
       <VoltageLimitInfo_Event>VoltageLimitInfo:Event</VoltageLimitInfo_Event>
       <ThresholdCurrentPhaseCosF__current>Уставка по току для ограничения по фазному сosф, А</ThresholdCurrentPhaseCosF__current>
@@ -4967,7 +4969,7 @@
       <CodeEventForExtraEventLog_EventLogCleared>Лог очищен</CodeEventForExtraEventLog_EventLogCleared>
       <AMRProfileStatus4>Статус AMR (Профиль4)</AMRProfileStatus4>
       <AMRProfileStatus3>Статус AMR (Профиль3)</AMRProfileStatus3>
-      <CodeEventForFraudDetectionEventLog>События журнала</CodeEventForFraudDetectionEventLog>
+      <CodeEventForFraudDetectionEventLog>События журнала воровства</CodeEventForFraudDetectionEventLog>
       <ThresholdForVoltageSag>Уставка по провалу напряжения</ThresholdForVoltageSag>
       <TimeThresholdForVoltageSag>Уставка по времени по провалу напряжения</TimeThresholdForVoltageSag>
       <ThresholdCurrentPhaseCosF>Уставка для cosф в фазе</ThresholdCurrentPhaseCosF>
@@ -5052,19 +5054,19 @@
       <inactivity_timeout__sec__>без активности (сек):</inactivity_timeout__sec__>
       <device_address_>адрес устройства:</device_address_>
       <UsbPortOperationalMode__Mode>Режим работы интерфейса:</UsbPortOperationalMode__Mode>
-      <CommunicationModuleInfoUsb__Info>Текущая версия коммуникационного модуля по USB</CommunicationModuleInfoUsb__Info>
+      <CommunicationModuleInfoUsb__Info>Текущая версия коммуникационного модуля, USB</CommunicationModuleInfoUsb__Info>
       <Number_of_objects_was_exceeded>Максимальное количество параметров достигнуто!</Number_of_objects_was_exceeded>
       <TimestampOfBillingPeriod1LastReset__Value>Последняя смена даты окончания расчётного периода:</TimestampOfBillingPeriod1LastReset__Value>
       <On_converting_datetime_error_occured>On converting datetime error occured</On_converting_datetime_error_occured>
-      <VoltageLastAvgL1>VoltageLastAvgL1</VoltageLastAvgL1>
-      <ActiveEnergyImportIncremental>ActiveEnergyImportIncremental</ActiveEnergyImportIncremental>
-      <ActiveEnergyExportIncremental>ActiveEnergyExportIncremental</ActiveEnergyExportIncremental>
-      <ReactEnergyImpIncremental>ReactEnergyImpIncremental</ReactEnergyImpIncremental>
-      <ReactEnergyExpIncremental>ReactEnergyExpIncremental</ReactEnergyExpIncremental>
-      <ReactEnergyQ1Incremental>ReactEnergyQ1Incremental</ReactEnergyQ1Incremental>
-      <ReactEnergyQ2Incremental>ReactEnergyQ2Incremental</ReactEnergyQ2Incremental>
-      <ReactEnergyQ3Incremental>ReactEnergyQ3Incremental</ReactEnergyQ3Incremental>
-      <ReactEnergyQ4Incremental>ReactEnergyQ4Incremental</ReactEnergyQ4Incremental>
+      <VoltageLastAvgL1>Напряжение, среднее, последнее L1</VoltageLastAvgL1>
+      <ActiveEnergyImportIncremental>Активная энергия, импорт, дельта</ActiveEnergyImportIncremental>
+      <ActiveEnergyExportIncremental>Активная энергия, экспорт, дельта</ActiveEnergyExportIncremental>
+      <ReactEnergyImpIncremental>Реактивная энергия, импорт, дельта</ReactEnergyImpIncremental>
+      <ReactEnergyExpIncremental>Реактивная энергия, экспорт, дельта</ReactEnergyExpIncremental>
+      <ReactEnergyQ1Incremental>Реактивная энергия, квадрант1, дельта</ReactEnergyQ1Incremental>
+      <ReactEnergyQ2Incremental>Реактивная энергия, квадрант2, дельта</ReactEnergyQ2Incremental>
+      <ReactEnergyQ3Incremental>Реактивная энергия, квадрант3, дельта</ReactEnergyQ3Incremental>
+      <ReactEnergyQ4Incremental>Реактивная энергия, квадрант4, дельта</ReactEnergyQ4Incremental>
       <Remove>Удалить</Remove>
       <CurrentControlThreshold__current>Максимально допустимое значение тока</CurrentControlThreshold__current>
       <ActionsTypeForMonitoringCurrent__Value>Действие по превышению уставки:</ActionsTypeForMonitoringCurrent__Value>
@@ -5082,70 +5084,70 @@
       <AbsoluteActiveEnergyRate4>Активная энергия, суммарная, тариф4</AbsoluteActiveEnergyRate4>
       <AbsoluteActiveEnergyRate5>Активная энергия, суммарная, тариф5</AbsoluteActiveEnergyRate5>
       <AbsoluteActiveEnergyRate6>Активная энергия, суммарная, тариф6</AbsoluteActiveEnergyRate6>
-      <SumInstantaneousActivePower_L1>SumInstantaneousActivePower_L1</SumInstantaneousActivePower_L1>
-      <SumInstantaneousActivePower_L2>SumInstantaneousActivePower_L2</SumInstantaneousActivePower_L2>
-      <SumInstantaneousActivePower_L3>SumInstantaneousActivePower_L3</SumInstantaneousActivePower_L3>
+      <SumInstantaneousActivePower_L1>Активная мощность L1</SumInstantaneousActivePower_L1>
+      <SumInstantaneousActivePower_L2>Активная мощность L2</SumInstantaneousActivePower_L2>
+      <SumInstantaneousActivePower_L3>Активная мощность L3</SumInstantaneousActivePower_L3>
       <InstantaneousActivePowerExport>InstantaneousActivePowerExport</InstantaneousActivePowerExport>
       <AbsoluteInstantaneousActivePower>Активная мощность, по модулю</AbsoluteInstantaneousActivePower>
       <TotalSumInstantaneousActivePower>Активная мощность</TotalSumInstantaneousActivePower>
-      <ActiveEnergyImportBillingIncremental>ActiveEnergyImportBillingIncremental</ActiveEnergyImportBillingIncremental>
-      <ActiveEnergyExportBillingIncremental>ActiveEnergyExportBillingIncremental</ActiveEnergyExportBillingIncremental>
-      <ReactEnergyImpBillingIncremental>ReactEnergyImpBillingIncremental</ReactEnergyImpBillingIncremental>
-      <ReactEnergyExpBillingIncremental>ReactEnergyExpBillingIncremental</ReactEnergyExpBillingIncremental>
-      <ReactEnergyQ1BillingIncremental>ReactEnergyQ1BillingIncremental</ReactEnergyQ1BillingIncremental>
-      <ReactEnergyQ2BillingIncremental>ReactEnergyQ2BillingIncremental</ReactEnergyQ2BillingIncremental>
-      <ReactEnergyQ3BillingIncremental>ReactEnergyQ3BillingIncremental</ReactEnergyQ3BillingIncremental>
-      <ReactEnergyQ4BillingIncremental>ReactEnergyQ4BillingIncremental</ReactEnergyQ4BillingIncremental>
-      <ActiveEnergyImportBillingIncrementalRate1>ActiveEnergyImportBillingIncrementalRate1</ActiveEnergyImportBillingIncrementalRate1>
-      <ActiveEnergyImportBillingIncrementalRate2>ActiveEnergyImportBillingIncrementalRate2</ActiveEnergyImportBillingIncrementalRate2>
-      <ActiveEnergyImportBillingIncrementalRate3>ActiveEnergyImportBillingIncrementalRate3</ActiveEnergyImportBillingIncrementalRate3>
-      <ActiveEnergyImportBillingIncrementalRate4>ActiveEnergyImportBillingIncrementalRate4</ActiveEnergyImportBillingIncrementalRate4>
-      <ActiveEnergyImportBillingIncrementalRate5>ActiveEnergyImportBillingIncrementalRate5</ActiveEnergyImportBillingIncrementalRate5>
-      <ActiveEnergyImportBillingIncrementalRate6>ActiveEnergyImportBillingIncrementalRate6</ActiveEnergyImportBillingIncrementalRate6>
-      <ActiveEnergyExportBillingIncrementalRate1>ActiveEnergyExportBillingIncrementalRate1</ActiveEnergyExportBillingIncrementalRate1>
-      <ActiveEnergyExportBillingIncrementalRate2>ActiveEnergyExportBillingIncrementalRate2</ActiveEnergyExportBillingIncrementalRate2>
-      <ActiveEnergyExportBillingIncrementalRate3>ActiveEnergyExportBillingIncrementalRate3</ActiveEnergyExportBillingIncrementalRate3>
-      <ActiveEnergyExportBillingIncrementalRate4>ActiveEnergyExportBillingIncrementalRate4</ActiveEnergyExportBillingIncrementalRate4>
-      <ActiveEnergyExportBillingIncrementalRate5>ActiveEnergyExportBillingIncrementalRate5</ActiveEnergyExportBillingIncrementalRate5>
-      <ActiveEnergyExportBillingIncrementalRate6>ActiveEnergyExportBillingIncrementalRate6</ActiveEnergyExportBillingIncrementalRate6>
-      <ReactEnergyImpBillingIncrementalRate1>ReactEnergyImpBillingIncrementalRate1</ReactEnergyImpBillingIncrementalRate1>
-      <ReactEnergyImpBillingIncrementalRate2>ReactEnergyImpBillingIncrementalRate2</ReactEnergyImpBillingIncrementalRate2>
-      <ReactEnergyImpBillingIncrementalRate3>ReactEnergyImpBillingIncrementalRate3</ReactEnergyImpBillingIncrementalRate3>
-      <ReactEnergyImpBillingIncrementalRate4>ReactEnergyImpBillingIncrementalRate4</ReactEnergyImpBillingIncrementalRate4>
-      <ReactEnergyImpBillingIncrementalRate5>ReactEnergyImpBillingIncrementalRate5</ReactEnergyImpBillingIncrementalRate5>
-      <ReactEnergyImpBillingIncrementalRate6>ReactEnergyImpBillingIncrementalRate6</ReactEnergyImpBillingIncrementalRate6>
-      <ReactEnergyExpBillingIncrementalRate1>ReactEnergyExpBillingIncrementalRate1</ReactEnergyExpBillingIncrementalRate1>
-      <ReactEnergyExpBillingIncrementalRate2>ReactEnergyExpBillingIncrementalRate2</ReactEnergyExpBillingIncrementalRate2>
-      <ReactEnergyExpBillingIncrementalRate3>ReactEnergyExpBillingIncrementalRate3</ReactEnergyExpBillingIncrementalRate3>
-      <ReactEnergyExpBillingIncrementalRate4>ReactEnergyExpBillingIncrementalRate4</ReactEnergyExpBillingIncrementalRate4>
-      <ReactEnergyExpBillingIncrementalRate5>ReactEnergyExpBillingIncrementalRate5</ReactEnergyExpBillingIncrementalRate5>
-      <ReactEnergyExpBillingIncrementalRate6>ReactEnergyExpBillingIncrementalRate6</ReactEnergyExpBillingIncrementalRate6>
-      <ReactEnergyQ1BillingIncrementalRate1>ReactEnergyQ1BillingIncrementalRate1</ReactEnergyQ1BillingIncrementalRate1>
-      <ReactEnergyQ1BillingIncrementalRate2>ReactEnergyQ1BillingIncrementalRate2</ReactEnergyQ1BillingIncrementalRate2>
-      <ReactEnergyQ1BillingIncrementalRate3>ReactEnergyQ1BillingIncrementalRate3</ReactEnergyQ1BillingIncrementalRate3>
-      <ReactEnergyQ1BillingIncrementalRate4>ReactEnergyQ1BillingIncrementalRate4</ReactEnergyQ1BillingIncrementalRate4>
-      <ReactEnergyQ1BillingIncrementalRate5>ReactEnergyQ1BillingIncrementalRate5</ReactEnergyQ1BillingIncrementalRate5>
-      <ReactEnergyQ1BillingIncrementalRate6>ReactEnergyQ1BillingIncrementalRate6</ReactEnergyQ1BillingIncrementalRate6>
-      <ReactEnergyQ2BillingIncrementalRate1>ReactEnergyQ2BillingIncrementalRate1</ReactEnergyQ2BillingIncrementalRate1>
-      <ReactEnergyQ2BillingIncrementalRate2>ReactEnergyQ2BillingIncrementalRate2</ReactEnergyQ2BillingIncrementalRate2>
-      <ReactEnergyQ2BillingIncrementalRate3>ReactEnergyQ2BillingIncrementalRate3</ReactEnergyQ2BillingIncrementalRate3>
-      <ReactEnergyQ2BillingIncrementalRate4>ReactEnergyQ2BillingIncrementalRate4</ReactEnergyQ2BillingIncrementalRate4>
-      <ReactEnergyQ2BillingIncrementalRate5>ReactEnergyQ2BillingIncrementalRate5</ReactEnergyQ2BillingIncrementalRate5>
-      <ReactEnergyQ2BillingIncrementalRate6>ReactEnergyQ2BillingIncrementalRate6</ReactEnergyQ2BillingIncrementalRate6>
-      <ReactEnergyQ3BillingIncrementalRate1>ReactEnergyQ3BillingIncrementalRate1</ReactEnergyQ3BillingIncrementalRate1>
-      <ReactEnergyQ3BillingIncrementalRate2>ReactEnergyQ3BillingIncrementalRate2</ReactEnergyQ3BillingIncrementalRate2>
-      <ReactEnergyQ3BillingIncrementalRate3>ReactEnergyQ3BillingIncrementalRate3</ReactEnergyQ3BillingIncrementalRate3>
-      <ReactEnergyQ3BillingIncrementalRate4>ReactEnergyQ3BillingIncrementalRate4</ReactEnergyQ3BillingIncrementalRate4>
-      <ReactEnergyQ3BillingIncrementalRate5>ReactEnergyQ3BillingIncrementalRate5</ReactEnergyQ3BillingIncrementalRate5>
-      <ReactEnergyQ3BillingIncrementalRate6>ReactEnergyQ3BillingIncrementalRate6</ReactEnergyQ3BillingIncrementalRate6>
-      <ReactEnergyQ4BillingIncrementalRate1>ReactEnergyQ4BillingIncrementalRate1</ReactEnergyQ4BillingIncrementalRate1>
-      <ReactEnergyQ4BillingIncrementalRate2>ReactEnergyQ4BillingIncrementalRate2</ReactEnergyQ4BillingIncrementalRate2>
-      <ReactEnergyQ4BillingIncrementalRate3>ReactEnergyQ4BillingIncrementalRate3</ReactEnergyQ4BillingIncrementalRate3>
-      <ReactEnergyQ4BillingIncrementalRate4>ReactEnergyQ4BillingIncrementalRate4</ReactEnergyQ4BillingIncrementalRate4>
-      <ReactEnergyQ4BillingIncrementalRate5>ReactEnergyQ4BillingIncrementalRate5</ReactEnergyQ4BillingIncrementalRate5>
-      <ReactEnergyQ4BillingIncrementalRate6>ReactEnergyQ4BillingIncrementalRate6</ReactEnergyQ4BillingIncrementalRate6>
-      <VoltageLastAvgL2>VoltageLastAvgL2</VoltageLastAvgL2>
-      <VoltageLastAvgL3>VoltageLastAvgL3</VoltageLastAvgL3>
+      <ActiveEnergyImportBillingIncremental>Активная энергия, импорт, дельта биллинг</ActiveEnergyImportBillingIncremental>
+      <ActiveEnergyExportBillingIncremental>Активная энергия, экспорт, дельта биллинг</ActiveEnergyExportBillingIncremental>
+      <ReactEnergyImpBillingIncremental>Реактивная энергия, импорт, дельта биллинг</ReactEnergyImpBillingIncremental>
+      <ReactEnergyExpBillingIncremental>Реактивная энергия, экспорт, дельта биллинг</ReactEnergyExpBillingIncremental>
+      <ReactEnergyQ1BillingIncremental>Реактивная энергия, квадрант1, дельта биллинг</ReactEnergyQ1BillingIncremental>
+      <ReactEnergyQ2BillingIncremental>Реактивная энергия, квадрант2, дельта биллинг</ReactEnergyQ2BillingIncremental>
+      <ReactEnergyQ3BillingIncremental>Реактивная энергия, квадрант3, дельта биллинг</ReactEnergyQ3BillingIncremental>
+      <ReactEnergyQ4BillingIncremental>Реактивная энергия, квадрант4, дельта биллинг</ReactEnergyQ4BillingIncremental>
+      <ActiveEnergyImportBillingIncrementalRate1>Активная энергия, импорт, тариф1, дельта биллинг</ActiveEnergyImportBillingIncrementalRate1>
+      <ActiveEnergyImportBillingIncrementalRate2>Активная энергия, импорт, тариф2, дельта биллинг</ActiveEnergyImportBillingIncrementalRate2>
+      <ActiveEnergyImportBillingIncrementalRate3>Активная энергия, импорт, тариф3, дельта биллинг</ActiveEnergyImportBillingIncrementalRate3>
+      <ActiveEnergyImportBillingIncrementalRate4>Активная энергия, импорт, тариф4, дельта биллинг</ActiveEnergyImportBillingIncrementalRate4>
+      <ActiveEnergyImportBillingIncrementalRate5>Активная энергия, импорт, тариф5, дельта биллинг</ActiveEnergyImportBillingIncrementalRate5>
+      <ActiveEnergyImportBillingIncrementalRate6>Активная энергия, импорт, тариф6, дельта биллинг</ActiveEnergyImportBillingIncrementalRate6>
+      <ActiveEnergyExportBillingIncrementalRate1>Активная энергия, экспорт, тариф1, дельта биллинг</ActiveEnergyExportBillingIncrementalRate1>
+      <ActiveEnergyExportBillingIncrementalRate2>Активная энергия, экспорт, тариф2, дельта биллинг</ActiveEnergyExportBillingIncrementalRate2>
+      <ActiveEnergyExportBillingIncrementalRate3>Активная энергия, экспорт, тариф3, дельта биллинг</ActiveEnergyExportBillingIncrementalRate3>
+      <ActiveEnergyExportBillingIncrementalRate4>Активная энергия, экспорт, тариф4, дельта биллинг</ActiveEnergyExportBillingIncrementalRate4>
+      <ActiveEnergyExportBillingIncrementalRate5>Активная энергия, экспорт, тариф5, дельта биллинг</ActiveEnergyExportBillingIncrementalRate5>
+      <ActiveEnergyExportBillingIncrementalRate6>Активная энергия, экспорт, тариф6, дельта биллинг</ActiveEnergyExportBillingIncrementalRate6>
+      <ReactEnergyImpBillingIncrementalRate1>Реактивная энергия, импорт, тариф1, дельта биллинг</ReactEnergyImpBillingIncrementalRate1>
+      <ReactEnergyImpBillingIncrementalRate2>Реактивная энергия, импорт, тариф2, дельта биллинг</ReactEnergyImpBillingIncrementalRate2>
+      <ReactEnergyImpBillingIncrementalRate3>Реактивная энергия, импорт, тариф3, дельта биллинг</ReactEnergyImpBillingIncrementalRate3>
+      <ReactEnergyImpBillingIncrementalRate4>Реактивная энергия, импорт, тариф4, дельта биллинг</ReactEnergyImpBillingIncrementalRate4>
+      <ReactEnergyImpBillingIncrementalRate5>Реактивная энергия, импорт, тариф5, дельта биллинг</ReactEnergyImpBillingIncrementalRate5>
+      <ReactEnergyImpBillingIncrementalRate6>Реактивная энергия, импорт, тариф6 дельта биллинг</ReactEnergyImpBillingIncrementalRate6>
+      <ReactEnergyExpBillingIncrementalRate1>Реактивная энергия, экспорт, тариф1, дельта биллинг</ReactEnergyExpBillingIncrementalRate1>
+      <ReactEnergyExpBillingIncrementalRate2>Реактивная энергия, экспорт, тариф2, дельта биллинг</ReactEnergyExpBillingIncrementalRate2>
+      <ReactEnergyExpBillingIncrementalRate3>Реактивная энергия, экспорт, тариф3, дельта биллинг</ReactEnergyExpBillingIncrementalRate3>
+      <ReactEnergyExpBillingIncrementalRate4>Реактивная энергия, экспорт, тариф4, дельта биллинг</ReactEnergyExpBillingIncrementalRate4>
+      <ReactEnergyExpBillingIncrementalRate5>Реактивная энергия, экспорт, тариф5, дельта биллинг</ReactEnergyExpBillingIncrementalRate5>
+      <ReactEnergyExpBillingIncrementalRate6>Реактивная энергия, экспорт, тариф6, дельта биллинг</ReactEnergyExpBillingIncrementalRate6>
+      <ReactEnergyQ1BillingIncrementalRate1>Реактивная энергия, квадрант1, тариф1, дельта биллинг</ReactEnergyQ1BillingIncrementalRate1>
+      <ReactEnergyQ1BillingIncrementalRate2>Реактивная энергия, квадрант1, тариф2, дельта биллинг</ReactEnergyQ1BillingIncrementalRate2>
+      <ReactEnergyQ1BillingIncrementalRate3>Реактивная энергия, квадрант1, тариф3, дельта биллинг</ReactEnergyQ1BillingIncrementalRate3>
+      <ReactEnergyQ1BillingIncrementalRate4>Реактивная энергия, квадрант1, тариф4, дельта биллинг</ReactEnergyQ1BillingIncrementalRate4>
+      <ReactEnergyQ1BillingIncrementalRate5>Реактивная энергия, квадрант1, тариф5, дельта биллинг</ReactEnergyQ1BillingIncrementalRate5>
+      <ReactEnergyQ1BillingIncrementalRate6>Реактивная энергия, квадрант1, тариф6, дельта биллинг</ReactEnergyQ1BillingIncrementalRate6>
+      <ReactEnergyQ2BillingIncrementalRate1>Реактивная энергия, квадрант2, тариф1, дельта биллинг</ReactEnergyQ2BillingIncrementalRate1>
+      <ReactEnergyQ2BillingIncrementalRate2>Реактивная энергия, квадрант2, тариф2, дельта биллинг</ReactEnergyQ2BillingIncrementalRate2>
+      <ReactEnergyQ2BillingIncrementalRate3>Реактивная энергия, квадрант2, тариф3, дельта биллинг</ReactEnergyQ2BillingIncrementalRate3>
+      <ReactEnergyQ2BillingIncrementalRate4>Реактивная энергия, квадрант2, тариф4, дельта биллинг</ReactEnergyQ2BillingIncrementalRate4>
+      <ReactEnergyQ2BillingIncrementalRate5>Реактивная энергия, квадрант2, тариф5, дельта биллинг</ReactEnergyQ2BillingIncrementalRate5>
+      <ReactEnergyQ2BillingIncrementalRate6>Реактивная энергия, квадрант2, тариф6, дельта биллинг</ReactEnergyQ2BillingIncrementalRate6>
+      <ReactEnergyQ3BillingIncrementalRate1>Реактивная энергия, квадрант3, тариф1, дельта биллинг</ReactEnergyQ3BillingIncrementalRate1>
+      <ReactEnergyQ3BillingIncrementalRate2>Реактивная энергия, квадрант3, тариф2, дельта биллинг</ReactEnergyQ3BillingIncrementalRate2>
+      <ReactEnergyQ3BillingIncrementalRate3>Реактивная энергия, квадрант3, тариф3, дельта биллинг</ReactEnergyQ3BillingIncrementalRate3>
+      <ReactEnergyQ3BillingIncrementalRate4>Реактивная энергия, квадрант3, тариф4, дельта биллинг</ReactEnergyQ3BillingIncrementalRate4>
+      <ReactEnergyQ3BillingIncrementalRate5>Реактивная энергия, квадрант3, тариф5, дельта биллинг</ReactEnergyQ3BillingIncrementalRate5>
+      <ReactEnergyQ3BillingIncrementalRate6>Реактивная энергия, квадрант3, тариф6, дельта биллинг</ReactEnergyQ3BillingIncrementalRate6>
+      <ReactEnergyQ4BillingIncrementalRate1>Реактивная энергия, квадрант4, тариф1, дельта биллинг</ReactEnergyQ4BillingIncrementalRate1>
+      <ReactEnergyQ4BillingIncrementalRate2>Реактивная энергия, квадрант4, тариф2, дельта биллинг</ReactEnergyQ4BillingIncrementalRate2>
+      <ReactEnergyQ4BillingIncrementalRate3>Реактивная энергия, квадрант4, тариф3, дельта биллинг</ReactEnergyQ4BillingIncrementalRate3>
+      <ReactEnergyQ4BillingIncrementalRate4>Реактивная энергия, квадрант4, тариф4, дельта биллинг</ReactEnergyQ4BillingIncrementalRate4>
+      <ReactEnergyQ4BillingIncrementalRate5>Реактивная энергия, квадрант4, тариф5, дельта биллинг</ReactEnergyQ4BillingIncrementalRate5>
+      <ReactEnergyQ4BillingIncrementalRate6>Реактивная энергия, квадрант4, тариф6, дельта биллинг</ReactEnergyQ4BillingIncrementalRate6>
+      <VoltageLastAvgL2>Напряжение, среднее, последнее L2</VoltageLastAvgL2>
+      <VoltageLastAvgL3>Напряжение, среднее, последнее L3</VoltageLastAvgL3>
       <configs_selected>config(s) selected</configs_selected>
       <Set_operation>Set operation</Set_operation>
       <The_value_does_not_satisfy_the_constraint>The value does not satisfy the constraint!</The_value_does_not_satisfy_the_constraint>
@@ -5153,6 +5155,7 @@
       <Constraint>Constraint</Constraint>
       <Dont_send>Don't send</Dont_send>
       <Skipped>Skipped</Skipped>
+      <IncrementTotalAbsoluteActiveEnergyBillingProfile>IncrementTotalAbsoluteActiveEnergyBillingProfile</IncrementTotalAbsoluteActiveEnergyBillingProfile>
     </DeviceConfig>
     <BitField>
       <af_ClockInvalid>Неверное Время:</af_ClockInvalid>
@@ -5338,7 +5341,7 @@
       <NoDevice>Нет устройства</NoDevice>
       <Supported>Поддерживается</Supported>
       <NotRecognized>Не распознан</NotRecognized>
-      <idle>Холостой</idle>
+      <idle>Простой</idle>
       <OnLine>Постоянный (рекомендуемый)</OnLine>
       <WakeUp>Пробуждением</WakeUp>
       <PassThrough>Сквозной</PassThrough>
@@ -5508,6 +5511,8 @@
       <SUM>Сумма</SUM>
       <Sum>Сумма</Sum>
       <Avg>Среднее</Avg>
+      <_clearB>Очистить</_clearB>
+      <RDLReportForm>Предварительный просмотр отчета</RDLReportForm>
     </Grid>
     <Captions>
       <Address>Адрес</Address>
@@ -5561,6 +5566,20 @@
       <time_Minute>Минуты</time_Minute>
       <time_Second>Секунды</time_Second>
       <time_Millisecond>Миллисекунды</time_Millisecond>
+      <TemplNameIsEmpty>Название шаблона пустое!</TemplNameIsEmpty>
+      <energy_varh>вар*ч</energy_varh>
+      <energy_kvarh>кВАР*ч</energy_kvarh>
+      <voltage_KiloVolt>кВ</voltage_KiloVolt>
+      <voltage_Volt>В</voltage_Volt>
+      <voltage_MilliVolt>мВ</voltage_MilliVolt>
+      <TemplIsTooLong>В шаблоне выбрано слишком много значений! (Максимум 100 значений)</TemplIsTooLong>
+      <temperature_C>temperature_C</temperature_C>
+      <TemplIsEmpty>В шаблоне отсутствуют параметры!</TemplIsEmpty>
+      <power_Var>вар</power_Var>
+      <phase_Degree>phase_Degree</phase_Degree>
+      <phase_Radian>phase_Radian</phase_Radian>
+      <frequency_Hz>Гц</frequency_Hz>
+      <frequency_kHz>кГц</frequency_kHz>
     </Templates>
   </DisplayData>
   <DeviceReference>
@@ -5569,10 +5588,10 @@
       <DeviceID1>005#[Информация] идентификатор 1</DeviceID1>
       <DeviceID2>005#[Информация] идентификатор 2</DeviceID2>
       <ActiveFirmwareVersion>001#[Информация] текущая версия прошивки</ActiveFirmwareVersion>
-      <CodeEventForStandartEventLog>События журнала</CodeEventForStandartEventLog>
-      <CodeEventForFraudDetectionEventLog>События журнала</CodeEventForFraudDetectionEventLog>
-      <CodeEventForDisconnectorControlEventLog>События журнала</CodeEventForDisconnectorControlEventLog>
-      <CodeEventForExtraEventLog>События журнала</CodeEventForExtraEventLog>
+      <CodeEventForStandartEventLog>События стандартного журнала</CodeEventForStandartEventLog>
+      <CodeEventForFraudDetectionEventLog>События журнала воровства</CodeEventForFraudDetectionEventLog>
+      <CodeEventForDisconnectorControlEventLog>События журнала отключения нагрузки</CodeEventForDisconnectorControlEventLog>
+      <CodeEventForExtraEventLog>События журнала дополнительные</CodeEventForExtraEventLog>
       <ErrorObject>Состояние: ошибки</ErrorObject>
       <AlarmObject>Состояние: аварии</AlarmObject>
       <Status>Статус</Status>
@@ -5607,15 +5626,15 @@
       <Backlight>203#[Дисплей] подсветка</Backlight>
       <DeviceID6>005#[Информация] идентификатор 6</DeviceID6>
       <DeviceID7>005#[Информация] идентификатор 7</DeviceID7>
-      <CodeEventForStandardEventLog>События журнала</CodeEventForStandardEventLog>
-      <CodeEventForFraudDetectionLog>События журнала</CodeEventForFraudDetectionLog>
-      <CodeEventForDisconnectControlLog>События журнала</CodeEventForDisconnectControlLog>
-      <CodeEventForFirmwareEventLog>События журнала</CodeEventForFirmwareEventLog>
-      <CodeEventForPowerQualityEventLog>События журнала</CodeEventForPowerQualityEventLog>
-      <CodeEventForDemandManagementLog>События журнала</CodeEventForDemandManagementLog>
-      <CodeEventForCommonEventLog>События журнала</CodeEventForCommonEventLog>
-      <CodeEventForSynchronizationEventLog>События журнала</CodeEventForSynchronizationEventLog>
-      <CodeEventForFinishedQualityEventLog>События журнала</CodeEventForFinishedQualityEventLog>
+      <CodeEventForStandardEventLog>События стандартного журнала </CodeEventForStandardEventLog>
+      <CodeEventForFraudDetectionLog>События журнала воровства </CodeEventForFraudDetectionLog>
+      <CodeEventForDisconnectControlLog>События журнала отключения</CodeEventForDisconnectControlLog>
+      <CodeEventForFirmwareEventLog>События журнала прошивок</CodeEventForFirmwareEventLog>
+      <CodeEventForPowerQualityEventLog>События журнала порогов пересечения</CodeEventForPowerQualityEventLog>
+      <CodeEventForDemandManagementLog>События журнала управление нагрузкой</CodeEventForDemandManagementLog>
+      <CodeEventForCommonEventLog>События журнала состояние интерфейсов</CodeEventForCommonEventLog>
+      <CodeEventForSynchronizationEventLog>События журнала синхронизации времени</CodeEventForSynchronizationEventLog>
+      <CodeEventForFinishedQualityEventLog>События журнала порогов восстановления</CodeEventForFinishedQualityEventLog>
       <StandardEventLogFilter>600#[Журналы событий] [ 1 ] стандартные события, фильтр</StandardEventLogFilter>
       <FraudDetectionLogFilter>600#[Журналы событий] [ 2 ] попытки воровства, фильтр</FraudDetectionLogFilter>
       <PowerQualityEventLogFilter>600#[Журналы событий] [ 5 ] пороги, пересечение, фильтр</PowerQualityEventLogFilter>
@@ -5628,10 +5647,10 @@
       <TimestampForPowerQualityLog>Дополнительная метка времени</TimestampForPowerQualityLog>
       <ClockSynchronization>Синхронизация времени</ClockSynchronization>
       <MessageText>205#[Дисплей] сообщение, бегущая строка</MessageText>
-      <ActiveFirmSignature>Цифровая подпись</ActiveFirmSignature>
+      <ActiveFirmSignature>Цифровая подпись прошивки</ActiveFirmSignature>
       <HighPriorityProfilesSync>300#[Профиль] HighPriorityProfilesSync</HighPriorityProfilesSync>
       <EnergyDataFormat>007#[Информация] формат данных энергии</EnergyDataFormat>
-      <CurrentlyActiveTariffNumber>Номер активного тарифа</CurrentlyActiveTariffNumber>
+      <CurrentlyActiveTariffNumber>Текущий тариф</CurrentlyActiveTariffNumber>
       <WANtoHANcontainer>WANtoHANcontainer</WANtoHANcontainer>
       <HANtoWANcontainer>HANtoWANcontainer</HANtoWANcontainer>
       <AMRProfileStatusForLoadProfileWithPeriod1>Статус AMR (Профиль4)</AMRProfileStatusForLoadProfileWithPeriod1>
@@ -5684,27 +5703,27 @@
       <IdleTime>Время Простоя</IdleTime>
       <HourCons>Карта почасового потребления</HourCons>
       <ActEnIntervalConsumption>Активная энергия, потребление за интервал</ActEnIntervalConsumption>
-      <HourStates1>ЧасовыеСостояния1</HourStates1>
-      <HourStates2>ЧасовыеСостояния2</HourStates2>
-      <AlarmWarnPower>АварияПредупрМощн</AlarmWarnPower>
-      <AlarmWarnExt>АварияПредупрВнешн</AlarmWarnExt>
+      <HourStates1>Часовое состояние 1</HourStates1>
+      <HourStates2>Часовое состояние 2</HourStates2>
+      <AlarmWarnPower>Авария, предупреждение по мощности</AlarmWarnPower>
+      <AlarmWarnExt>Авария, внешнее предупреждение</AlarmWarnExt>
       <AlarmTar4byPower>АварияТар4поМощности</AlarmTar4byPower>
       <AlarmTar4byExt>АварияТар4поВнешнПричине</AlarmTar4byExt>
-      <AlarmTurnOffbyPower>АварияОтключенияПоМощности</AlarmTurnOffbyPower>
-      <AlarmTurnOffbyExt>АварияОтключенияПоВнешнПричине</AlarmTurnOffbyExt>
-      <AlarmDevError>АварияОшибкиУстройства</AlarmDevError>
-      <AlarmWrongInst>АварияНеправильнУстановка</AlarmWrongInst>
-      <AlarmTimeNotSync>АварияВремяНеСинхр</AlarmTimeNotSync>
-      <AlarmTimeSyncErr>АварияОшибкиСинхрВремени</AlarmTimeSyncErr>
-      <AlarmPowerOff>АварияОтключенияПитания</AlarmPowerOff>
-      <AlarmTurnOffbyTempr>АварияОтключенияПоТемпер</AlarmTurnOffbyTempr>
-      <AlarmWarnTempr>АварияПредупрТемпер</AlarmWarnTempr>
-      <AlarmExceedingCur>АварияПревышенияТока</AlarmExceedingCur>
-      <AlarmExceedingVoltage>Авария превышение напряжения</AlarmExceedingVoltage>
-      <AlarmExceedingTempr>Авария превышение температуры</AlarmExceedingTempr>
-      <AlarmTurnOffbyCur>Авария отключение по току</AlarmTurnOffbyCur>
-      <AlarmTurnOffbyVoltage>АварияОтключенияПоНапряж</AlarmTurnOffbyVoltage>
-      <AsyncAlarms>АсинхрАварии</AsyncAlarms>
+      <AlarmTurnOffbyPower>Авария, отключение по мощности</AlarmTurnOffbyPower>
+      <AlarmTurnOffbyExt>Авария, отключение по внешней причине</AlarmTurnOffbyExt>
+      <AlarmDevError>Авария, ошибки устройства</AlarmDevError>
+      <AlarmWrongInst>Авария, неправильная установка</AlarmWrongInst>
+      <AlarmTimeNotSync>Авария, время не синхронизировано</AlarmTimeNotSync>
+      <AlarmTimeSyncErr>Авария, ошибка синхронизации времени</AlarmTimeSyncErr>
+      <AlarmPowerOff>Авария, отключение питания</AlarmPowerOff>
+      <AlarmTurnOffbyTempr>Авария, отключение по температуре</AlarmTurnOffbyTempr>
+      <AlarmWarnTempr>Авария, предупреждение по температуре</AlarmWarnTempr>
+      <AlarmExceedingCur>Авария, превышение тока</AlarmExceedingCur>
+      <AlarmExceedingVoltage>Авария, превышение напряжения</AlarmExceedingVoltage>
+      <AlarmExceedingTempr>Авария, превышение температуры</AlarmExceedingTempr>
+      <AlarmTurnOffbyCur>Авария, отключение по току</AlarmTurnOffbyCur>
+      <AlarmTurnOffbyVoltage>Авария, отключение по напряжению</AlarmTurnOffbyVoltage>
+      <AsyncAlarms>Асинхронные аварии</AsyncAlarms>
       <IdleStruct>Структура простоя</IdleStruct>
       <TotalShortIdleCount>Суммарное количество коротких простоев</TotalShortIdleCount>
       <TotalShortIdleTime>Суммарное время коротких простоев</TotalShortIdleTime>
@@ -6632,7 +6651,7 @@
       <ReactEnergyImpBillingIncrementalRate4>Реактивная энергия, импорт, тариф4, дельта биллинг</ReactEnergyImpBillingIncrementalRate4>
       <ReactEnergyImpBillingIncrementalRate5>Реактивная энергия, импорт, тариф5, дельта биллинг</ReactEnergyImpBillingIncrementalRate5>
       <ReactEnergyImpBillingIncrementalRate6>Реактивная энергия, импорт, тариф6, дельта биллинг</ReactEnergyImpBillingIncrementalRate6>
-      <ReactEnergyExpBillingIncrementalRate1>ReactEnergyExpBillingIncrementalRate1</ReactEnergyExpBillingIncrementalRate1>
+      <ReactEnergyExpBillingIncrementalRate1>Реактивная энергия, экспорт, тариф1, дельта биллинг</ReactEnergyExpBillingIncrementalRate1>
       <ReactEnergyExpBillingIncrementalRate2>Реактивная энергия, экспорт, тариф2, дельта биллинг</ReactEnergyExpBillingIncrementalRate2>
       <ReactEnergyExpBillingIncrementalRate3>Реактивная энергия, экспорт, тариф3, дельта биллинг</ReactEnergyExpBillingIncrementalRate3>
       <ReactEnergyExpBillingIncrementalRate4>Реактивная энергия, экспорт, тариф4, дельта биллинг</ReactEnergyExpBillingIncrementalRate4>
@@ -6725,7 +6744,7 @@
       <IncrementTotalAbsoluteActiveEnergyBillingProfile>IncrementTotalAbsoluteActiveEnergyBillingProfile</IncrementTotalAbsoluteActiveEnergyBillingProfile>
       <AbsoluteInstantaneousActivePower>Активная мощность, по модулю</AbsoluteInstantaneousActivePower>
       <TotalSumInstantaneousActivePower>Активная мощность</TotalSumInstantaneousActivePower>
-      <SumInstantaneousActivePower_L1>SumInstantaneousActivePower_L1</SumInstantaneousActivePower_L1>
+      <SumInstantaneousActivePower_L1>Активная мощность L1</SumInstantaneousActivePower_L1>
       <InstantaneousActivePowerImport>InstantaneousActivePowerImport</InstantaneousActivePowerImport>
       <InstantaneousActivePowerExport>InstantaneousActivePowerExport</InstantaneousActivePowerExport>
       <AbsoluteInstantaneousActivePower_L1>AbsoluteInstantaneousActivePower_L1</AbsoluteInstantaneousActivePower_L1>
@@ -6737,13 +6756,13 @@
       <AbsoluteInstantaneousActivePower_L3>AbsoluteInstantaneousActivePower_L3</AbsoluteInstantaneousActivePower_L3>
       <AbsoluteActiveEnergy_L3>AbsoluteActiveEnergy_L3</AbsoluteActiveEnergy_L3>
       <IncrementAbsoluteActiveEnergyBillingProfile_L3>IncrementAbsoluteActiveEnergyBillingProfile_L3</IncrementAbsoluteActiveEnergyBillingProfile_L3>
-      <SumInstantaneousActivePower_L2>SumInstantaneousActivePower_L2</SumInstantaneousActivePower_L2>
-      <SumInstantaneousActivePower_L3>SumInstantaneousActivePower_L3</SumInstantaneousActivePower_L3>
+      <SumInstantaneousActivePower_L2>Активная мощность L2</SumInstantaneousActivePower_L2>
+      <SumInstantaneousActivePower_L3>Активная мощность L3</SumInstantaneousActivePower_L3>
       <PLC_PHY_Setup>PLC_PHY_Setup</PLC_PHY_Setup>
       <PLC_MAC_Setup>PLC_MAC_Setup</PLC_MAC_Setup>
       <PLC_Setup_Other>PLC_Setup_Other</PLC_Setup_Other>
-      <InterfaceTable>ТаблицаИнтерфейсов</InterfaceTable>
-      <DeviceTable>ТаблицаУстройств</DeviceTable>
+      <InterfaceTable>Таблица интерфейсов</InterfaceTable>
+      <DeviceTable>Таблица устройств</DeviceTable>
       <AlarmBatteryDischarged>АварияБатарейкаРазряжена</AlarmBatteryDischarged>
       <AlarmTerminalBlockCoverIsOpened>АварияКрышкаКлеммникаВскрыта</AlarmTerminalBlockCoverIsOpened>
       <DayStates>Суточные состояния 1</DayStates>
@@ -6765,8 +6784,8 @@
       <AlarmExceedingCurrent2>АварияПревышениеТока2</AlarmExceedingCurrent2>
       <AlarmNot_Switched1>АварияИсчерпаныПопыткиВключения (канал 1)</AlarmNot_Switched1>
       <AlarmNot_Switched2>АварияИсчерпаныПопыткиВключения (канал 2)</AlarmNot_Switched2>
-      <AlarmPowerOff1>АварияОтключенияПитания1</AlarmPowerOff1>
-      <AlarmPowerOff2>АварияОтключенияПитания2</AlarmPowerOff2>
+      <AlarmPowerOff1>Авария, отключение питания1</AlarmPowerOff1>
+      <AlarmPowerOff2>Авария, отключение питания2</AlarmPowerOff2>
       <AlarmRState_1>АварияСостояниеРеле_1</AlarmRState_1>
       <AlarmRState_2>АварияСостояниеРеле_2</AlarmRState_2>
       <AlarmDisconByCur1>АварияОтключениеПоТоку1</AlarmDisconByCur1>
@@ -7018,6 +7037,9 @@
       <WarnPower>ПредупрМощность</WarnPower>
       <PowerFail>PowerFail</PowerFail>
       <RebootWithoutLossOfData>RebootWithoutLossOfData</RebootWithoutLossOfData>
+      <EndOfPowerFailurePhase3>EndOfPowerFailurePhase3</EndOfPowerFailurePhase3>
+      <AssociationManagementClientError>AssociationManagementClientError</AssociationManagementClientError>
+      <AssociationHanControllerClientError>AssociationHanControllerClientError</AssociationHanControllerClientError>
     </Parameters>
     <Units>
       <time_second>сек</time_second>
@@ -7035,10 +7057,10 @@
       <Customer_Code>Код потребителя</Customer_Code>
       <Logical_ID>Логический ID</Logical_ID>
       <DateTime>Дата и время</DateTime>
-      <ActEnL>АктЭн_L</ActEnL>
-      <ActEnM>АктЭн_M</ActEnM>
+      <ActEnL>Активная энергия L</ActEnL>
+      <ActEnM>Активная энергия M</ActEnM>
       <Serial_No>Серийный №</Serial_No>
-      <Date>Данные</Date>
+      <Date>Дата</Date>
       <Transformer>Трансформатор</Transformer>
       <Transformator>Трансформатор</Transformator>
       <TotalActEn>Активная энергия суммарная</TotalActEn>
@@ -7079,6 +7101,420 @@
       <AlarmObject>Состояние: аварии</AlarmObject>
       <ErrorObject>Состояние: ошибки</ErrorObject>
       <Idif>Дифференциальный ток</Idif>
+      <ActiveEnergyImportRate3>Активная энергия, импорт, тариф3</ActiveEnergyImportRate3>
+      <ActiveEnergyImportL1>Активная энергия, импорт L1</ActiveEnergyImportL1>
+      <ActiveEnergyImportL2>Активная энергия, импорт L2</ActiveEnergyImportL2>
+      <ActiveEnergyImportL3>Активная энергия, импорт L3</ActiveEnergyImportL3>
+      <ActiveEnergyImportRate4>Активная энергия, импорт, тариф4</ActiveEnergyImportRate4>
+      <ActiveEnergyImportRate5>Активная энергия, импорт, тариф5</ActiveEnergyImportRate5>
+      <ActiveEnergyImportRate6>Активная энергия, импорт, тариф6</ActiveEnergyImportRate6>
+      <AbsoluteActiveEnergyRate1>Активная энергия, суммарная, тариф1</AbsoluteActiveEnergyRate1>
+      <AbsoluteActiveEnergyRate2>Активная энергия, суммарная, тариф2</AbsoluteActiveEnergyRate2>
+      <AbsoluteActiveEnergyRate3>Активная энергия, суммарная, тариф3</AbsoluteActiveEnergyRate3>
+      <AbsoluteActiveEnergyRate4>Активная энергия, суммарная, тариф4</AbsoluteActiveEnergyRate4>
+      <AbsoluteActiveEnergyRate5>Активная энергия, суммарная, тариф5</AbsoluteActiveEnergyRate5>
+      <AbsoluteActiveEnergyRate6>Активная энергия, суммарная, тариф6</AbsoluteActiveEnergyRate6>
+      <AbsoluteActiveEnergyTotal>Активная энергия, суммарная</AbsoluteActiveEnergyTotal>
+      <ActiveEnergyExportRate1>Активная энергия, экспорт, тариф1</ActiveEnergyExportRate1>
+      <ActiveEnergyExportRate2>Активная энергия, экспорт, тариф2</ActiveEnergyExportRate2>
+      <ActiveEnergyExportRate3>Активная энергия, экспорт, тариф3</ActiveEnergyExportRate3>
+      <ActiveEnergyExportRate4>Активная энергия, экспорт, тариф4</ActiveEnergyExportRate4>
+      <ActiveEnergyExportRate5>Активная энергия, экспорт, тариф5</ActiveEnergyExportRate5>
+      <ActiveEnergyExportRate6>Активная энергия, экспорт, тариф6</ActiveEnergyExportRate6>
+      <ActiveEnergyExportL1>Активная энергия, экспорт L1</ActiveEnergyExportL1>
+      <ActiveEnergyExportL2>Активная энергия, экспорт L2</ActiveEnergyExportL2>
+      <ActiveEnergyExportL3>Активная энергия, экспорт L3</ActiveEnergyExportL3>
+      <ActivePowerControlThreshold>Максимально допустимое значение активной мощности</ActivePowerControlThreshold>
+      <ReactEnergyC>Реактивная энергия, ёмкостная</ReactEnergyC>
+      <ReactEnergyImpRate1>Реактивная энергия, импорт, тариф1</ReactEnergyImpRate1>
+      <ReactEnergyImpRate2>Реактивная энергия, импорт, тариф2</ReactEnergyImpRate2>
+      <ReactEnergyImpRate3>Реактивная энергия, импорт, тариф3</ReactEnergyImpRate3>
+      <ReactEnergyImpRate4>Реактивная энергия, импорт, тариф4</ReactEnergyImpRate4>
+      <ReactEnergyImpRate5>Реактивная энергия, импорт, тариф5</ReactEnergyImpRate5>
+      <ReactEnergyImpRate6>Реактивная энергия, импорт, тариф6</ReactEnergyImpRate6>
+      <ReactEnergyImp>Реактивная энергия, импорт</ReactEnergyImp>
+      <ReactEnergyL>Реактивная энергия, индуктивная</ReactEnergyL>
+      <ReactEnergyQ1Rate1>Реактивная энергия, квадрант1, тариф1</ReactEnergyQ1Rate1>
+      <ReactEnergyQ1Rate2>Реактивная энергия, квадрант1, тариф2</ReactEnergyQ1Rate2>
+      <ReactEnergyQ1Rate3>Реактивная энергия, квадрант1, тариф3</ReactEnergyQ1Rate3>
+      <ReactEnergyQ1Rate4>Реактивная энергия, квадрант1, тариф4</ReactEnergyQ1Rate4>
+      <ReactEnergyQ1Rate5>Реактивная энергия, квадрант1, тариф5</ReactEnergyQ1Rate5>
+      <ReactEnergyQ1Rate6>Реактивная энергия, квадрант1, тариф6</ReactEnergyQ1Rate6>
+      <ReactEnergyQ1>Реактивная энергия, квадрант1</ReactEnergyQ1>
+      <ReactEnergyQSum>Реактивная энергия, суммарная по квадрантам</ReactEnergyQSum>
+      <ReactEnergyExpRate1>Реактивная энергия, экспорт, тариф1</ReactEnergyExpRate1>
+      <ReactEnergyExpRate2>Реактивная энергия, экспорт, тариф2</ReactEnergyExpRate2>
+      <ReactEnergyExpRate3>Реактивная энергия, экспорт, тариф3</ReactEnergyExpRate3>
+      <ReactEnergyExpRate4>Реактивная энергия, экспорт, тариф4</ReactEnergyExpRate4>
+      <ReactEnergyExpRate5>Реактивная энергия, экспорт, тариф5</ReactEnergyExpRate5>
+      <ReactEnergyExpRate6>Реактивная энергия, экспорт, тариф6</ReactEnergyExpRate6>
+      <ReactEnergyExp>Реактивная энергия, экспорт</ReactEnergyExp>
+      <IdiffControlThreshold>Уставка для определения дифференциального тока</IdiffControlThreshold>
+      <EAN_Code>EAN код</EAN_Code>
+      <UID1>UID1</UID1>
+      <UID2>UID2</UID2>
+      <Control_Point_Name>Наименование точки учета</Control_Point_Name>
+      <Device_Producer>Производитель устройства</Device_Producer>
+      <Resource>Ресурс</Resource>
+      <Device_Type>Тип устройства</Device_Type>
+      <ActEnIntervalConsumption>Активная энергия, потребление за интервал</ActEnIntervalConsumption>
+      <AbsoluteActiveEnergy_L1>AbsoluteActiveEnergy_L1</AbsoluteActiveEnergy_L1>
+      <AbsoluteActiveEnergy_L2>AbsoluteActiveEnergy_L2</AbsoluteActiveEnergy_L2>
+      <AbsoluteActiveEnergy_L3>AbsoluteActiveEnergy_L3</AbsoluteActiveEnergy_L3>
+      <AbsoluteInstantaneousActivePower_L1>AbsoluteInstantaneousActivePower_L1</AbsoluteInstantaneousActivePower_L1>
+      <AbsoluteInstantaneousActivePower_L2>AbsoluteInstantaneousActivePower_L2</AbsoluteInstantaneousActivePower_L2>
+      <AbsoluteInstantaneousActivePower_L3>AbsoluteInstantaneousActivePower_L3</AbsoluteInstantaneousActivePower_L3>
+      <IncrementAbsoluteActiveEnergyBillingProfile_L1>IncrementAbsoluteActiveEnergyBillingProfile_L1</IncrementAbsoluteActiveEnergyBillingProfile_L1>
+      <IncrementAbsoluteActiveEnergyBillingProfile_L2>IncrementAbsoluteActiveEnergyBillingProfile_L2</IncrementAbsoluteActiveEnergyBillingProfile_L2>
+      <IncrementAbsoluteActiveEnergyBillingProfile_L3>IncrementAbsoluteActiveEnergyBillingProfile_L3</IncrementAbsoluteActiveEnergyBillingProfile_L3>
+      <IncrementTotalAbsoluteActiveEnergyBillingProfile>IncrementTotalAbsoluteActiveEnergyBillingProfile</IncrementTotalAbsoluteActiveEnergyBillingProfile>
+      <ReactEnergyExpBillingIncrementalRate1>Реактивная энергия, экспорт, тариф1, дельта биллинг</ReactEnergyExpBillingIncrementalRate1>
+      <ActEnH>Активная энергия H</ActEnH>
+      <ActEnP>Активная энергия P</ActEnP>
+      <ActiveEnergyImportIncremental>Активная энергия, импорт, дельта</ActiveEnergyImportIncremental>
+      <ActiveEnergyImportBillingIncremental>Активная энергия, импорт, дельта биллинг</ActiveEnergyImportBillingIncremental>
+      <ActiveEnergyImportBillingIncrementalRate1>Активная энергия, импорт, тариф1, дельта биллинг</ActiveEnergyImportBillingIncrementalRate1>
+      <ActiveEnergyImportBillingIncrementalRate2>Активная энергия, импорт, тариф2, дельта биллинг</ActiveEnergyImportBillingIncrementalRate2>
+      <ActiveEnergyImportBillingIncrementalRate3>Активная энергия, импорт, тариф3, дельта биллинг</ActiveEnergyImportBillingIncrementalRate3>
+      <ActiveEnergyImportBillingIncrementalRate4>Активная энергия, импорт, тариф4, дельта биллинг</ActiveEnergyImportBillingIncrementalRate4>
+      <ActiveEnergyImportBillingIncrementalRate5>Активная энергия, импорт, тариф5, дельта биллинг</ActiveEnergyImportBillingIncrementalRate5>
+      <ActiveEnergyImportBillingIncrementalRate6>Активная энергия, импорт, тариф6, дельта биллинг</ActiveEnergyImportBillingIncrementalRate6>
+      <TotalActiveEnergy>Активная энергия, суммарная</TotalActiveEnergy>
+      <TotalActiveEnergyRate1>Активная энергия, суммарная, тариф1</TotalActiveEnergyRate1>
+      <TotalActiveEnergyRate2>Активная энергия, суммарная, тариф2</TotalActiveEnergyRate2>
+      <TotalActiveEnergyRate3>Активная энергия, суммарная, тариф3</TotalActiveEnergyRate3>
+      <TotalActiveEnergyRate4>Активная энергия, суммарная, тариф4</TotalActiveEnergyRate4>
+      <TotalActiveEnergyRate5>Активная энергия, суммарная, тариф5</TotalActiveEnergyRate5>
+      <TotalActiveEnergyRate6>Активная энергия, суммарная, тариф6</TotalActiveEnergyRate6>
+      <ActiveEnergyExportIncremental>Активная энергия, экспорт, дельта</ActiveEnergyExportIncremental>
+      <ActiveEnergyExportBillingIncremental>Активная энергия, экспорт, дельта биллинг</ActiveEnergyExportBillingIncremental>
+      <ActiveEnergyExportBillingIncrementalRate1>Активная энергия, экспорт, тариф1, дельта биллинг</ActiveEnergyExportBillingIncrementalRate1>
+      <ActiveEnergyExportBillingIncrementalRate2>Активная энергия, экспорт, тариф2, дельта биллинг</ActiveEnergyExportBillingIncrementalRate2>
+      <ActiveEnergyExportBillingIncrementalRate3>Активная энергия, экспорт, тариф3, дельта биллинг</ActiveEnergyExportBillingIncrementalRate3>
+      <ActiveEnergyExportBillingIncrementalRate4>Активная энергия, экспорт, тариф4, дельта биллинг</ActiveEnergyExportBillingIncrementalRate4>
+      <ActiveEnergyExportBillingIncrementalRate5>Активная энергия, экспорт, тариф5, дельта биллинг</ActiveEnergyExportBillingIncrementalRate5>
+      <ActiveEnergyExportBillingIncrementalRate6>Активная энергия, экспорт, тариф6, дельта биллинг</ActiveEnergyExportBillingIncrementalRate6>
+      <CurrentControlThreshold>Максимально допустимое значение тока</CurrentControlThreshold>
+      <VoltageLastAvgL1>Напряжение, среднее, последнее L1</VoltageLastAvgL1>
+      <VoltageLastAvgL2>Напряжение, среднее, последнее L2</VoltageLastAvgL2>
+      <VoltageLastAvgL3>Напряжение, среднее, последнее L3</VoltageLastAvgL3>
+      <VoltageCurAvgL1>Напряжение, среднее, текущее L1</VoltageCurAvgL1>
+      <VoltageCurAvgL2>Напряжение, среднее, текущее L2</VoltageCurAvgL2>
+      <VoltageCurAvgL3>Напряжение, среднее, текущее L3</VoltageCurAvgL3>
+      <BadVoltage>Некачественное напряжение</BadVoltage>
+      <NoVoltage>Нет напряжения</NoVoltage>
+      <ReactEnergyImpIncremental>Реактивная энергия, импорт, дельта</ReactEnergyImpIncremental>
+      <ReactEnergyImpBillingIncremental>Реактивная энергия, импорт, дельта биллинг</ReactEnergyImpBillingIncremental>
+      <ReactEnergyImpBillingIncrementalRate1>Реактивная энергия, импорт, тариф1, дельта биллинг</ReactEnergyImpBillingIncrementalRate1>
+      <ReactEnergyImpBillingIncrementalRate2>Реактивная энергия, импорт, тариф2, дельта биллинг</ReactEnergyImpBillingIncrementalRate2>
+      <ReactEnergyImpBillingIncrementalRate3>Реактивная энергия, импорт, тариф3, дельта биллинг</ReactEnergyImpBillingIncrementalRate3>
+      <ReactEnergyImpBillingIncrementalRate4>Реактивная энергия, импорт, тариф4, дельта биллинг</ReactEnergyImpBillingIncrementalRate4>
+      <ReactEnergyImpBillingIncrementalRate5>Реактивная энергия, импорт, тариф5, дельта биллинг</ReactEnergyImpBillingIncrementalRate5>
+      <ReactEnergyImpBillingIncrementalRate6>Реактивная энергия, импорт, тариф6 дельта биллинг</ReactEnergyImpBillingIncrementalRate6>
+      <ReactEnergyQ1Incremental>Реактивная энергия, квадрант1, дельта</ReactEnergyQ1Incremental>
+      <ReactEnergyQ1BillingIncremental>Реактивная энергия, квадрант1, дельта биллинг</ReactEnergyQ1BillingIncremental>
+      <ReactEnergyQ1BillingIncrementalRate1>Реактивная энергия, квадрант1, тариф1, дельта биллинг</ReactEnergyQ1BillingIncrementalRate1>
+      <ReactEnergyQ1BillingIncrementalRate2>Реактивная энергия, квадрант1, тариф2, дельта биллинг</ReactEnergyQ1BillingIncrementalRate2>
+      <ReactEnergyQ1BillingIncrementalRate3>Реактивная энергия, квадрант1, тариф3, дельта биллинг</ReactEnergyQ1BillingIncrementalRate3>
+      <ActiveFirmwareVersion>Текущая версия прошивки</ActiveFirmwareVersion>
+      <CommunicationModuleInfoUsb>Текущая версия коммуникационного модуля, USB</CommunicationModuleInfoUsb>
+      <DeviceID2>Идентификатор 2</DeviceID2>
+      <DeviceID3>идентификатор 3</DeviceID3>
+      <DeviceID4>идентификатор 4</DeviceID4>
+      <DeviceID5>идентификатор 5</DeviceID5>
+      <DeviceID6>идентификатор 6</DeviceID6>
+      <DeviceID7>идентификатор 7</DeviceID7>
+      <EnergyDataFormat>Формат данных энергии</EnergyDataFormat>
+      <Backlight>Подсветка дисплея</Backlight>
+      <HighPriorityProfilesSync>HighPriorityProfilesSync</HighPriorityProfilesSync>
+      <EndOfBillingPeriodPassive1>Окончание расчётного периода</EndOfBillingPeriodPassive1>
+      <TOUDirectControl>Прямое управление расписанием</TOUDirectControl>
+      <MaxDemandMode>Пиковая мощность, период</MaxDemandMode>
+      <StandardEventLogFilter>Стандартные события, фильтр</StandardEventLogFilter>
+      <FraudDetectionLogFilter>Попытки воровства, фильтр</FraudDetectionLogFilter>
+      <DisconnectControlLogFilter>Отключение нагрузки, фильтр</DisconnectControlLogFilter>
+      <FirmwareEventLogFilter>Обновления прошивки, фильтр</FirmwareEventLogFilter>
+      <PowerQualityEventLogFilter>Пороги, пересечение, фильтр</PowerQualityEventLogFilter>
+      <DemandManagementEventLogFilter>Управление нагрузкой, фильтр</DemandManagementEventLogFilter>
+      <CommonEventLogFilter>Состояние интерфейсов, фильтр</CommonEventLogFilter>
+      <SynchronizationEventLogFilter>Синхронизации времени, фильтр</SynchronizationEventLogFilter>
+      <PowerQualityFinishedEventLogFilter>Пороги, восстановление, фильтр</PowerQualityFinishedEventLogFilter>
+      <ExtraEventLogFilter>Дополнительные события, фильтр</ExtraEventLogFilter>
+      <AccessConfigHanControllerClient>Попытки доступа [ домашняя сеть ]</AccessConfigHanControllerClient>
+      <AccessConfigManagementClient>Попытки доступа [ полный доступ ]</AccessConfigManagementClient>
+      <AccessConfigReadingClient>Попытки доступа [ чтение ]</AccessConfigReadingClient>
+      <UsbPortStatus>USB, информация об устройстве</UsbPortStatus>
+      <UsbPortOperationalMode>USB порт, режим работы</UsbPortOperationalMode>
+      <GPRSDiagnostic>Диагностика GPRS</GPRSDiagnostic>
+      <FSK132AARQCounter>FSK132, AARQ счетчик</FSK132AARQCounter>
+      <FSK132SNRMCounter>FSK132, SNRM счетчик</FSK132SNRMCounter>
+      <GPRSModemSetupExtension>GPRSModemSetupExtension</GPRSModemSetupExtension>
+      <CurrentlyActiveTariff>Активный тариф</CurrentlyActiveTariff>
+      <TimestampOfBillingPeriod1LastReset>Время последней смены окончания расчетного периода</TimestampOfBillingPeriod1LastReset>
+      <FormerClock>Время, до синхронизации</FormerClock>
+      <TimestampForPowerQualityLog>Дополнительная метка времени</TimestampForPowerQualityLog>
+      <NumberOfLongPowerFailuresInAllPhases>Кол-во длительных провалов напряжения</NumberOfLongPowerFailuresInAllPhases>
+      <NumberOfLongPowerFailuresInAnyPhases>Кол-во длительных провалов напряжения</NumberOfLongPowerFailuresInAnyPhases>
+      <NumberOfLongPowerFailuresL1>Кол-во длительных провалов напряжения L1</NumberOfLongPowerFailuresL1>
+      <NumberOfLongPowerFailuresL2>Кол-во длительных провалов напряжения L2</NumberOfLongPowerFailuresL2>
+      <NumberOfLongPowerFailuresL3>Кол-во длительных провалов напряжения L3</NumberOfLongPowerFailuresL3>
+      <NumberOfPowerFailuresInAnyPhases>Кол-во отключений напряжения по любой фазе</NumberOfPowerFailuresInAnyPhases>
+      <NumberOfVoltageSags1AnyPhase>Кол-во провалов напряжения 1</NumberOfVoltageSags1AnyPhase>
+      <NumberOfVoltageSags1L1>Кол-во провалов напряжения 1 L1</NumberOfVoltageSags1L1>
+      <NumberOfVoltageSags1L2>Кол-во провалов напряжения 1 L2</NumberOfVoltageSags1L2>
+      <NumberOfVoltageSags1L3>Кол-во провалов напряжения 1 L3</NumberOfVoltageSags1L3>
+      <NumberOfVoltageSags2AnyPhase>Кол-во провалов напряжения 2</NumberOfVoltageSags2AnyPhase>
+      <NumberOfVoltageSags2L1>Кол-во провалов напряжения 2 L1</NumberOfVoltageSags2L1>
+      <NumberOfVoltageSags2L2>Кол-во провалов напряжения 2 L2</NumberOfVoltageSags2L2>
+      <NumberOfVoltageSags2L3>Кол-во провалов напряжения 2 L3</NumberOfVoltageSags2L3>
+      <NumberOfVoltageSags3AnyPhase>Кол-во провалов напряжения 3</NumberOfVoltageSags3AnyPhase>
+      <NumberOfVoltageSags3L1>Кол-во провалов напряжения 3 L1</NumberOfVoltageSags3L1>
+      <NumberOfVoltageSags3L2>Кол-во провалов напряжения 3 L2</NumberOfVoltageSags3L2>
+      <NumberOfVoltageSags3L3>Кол-во провалов напряжения 3 L3</NumberOfVoltageSags3L3>
+      <NumberOfVoltageSagsL1>Кол-во провалов напряжения L1</NumberOfVoltageSagsL1>
+      <NumberOfVoltageSagsL2>Кол-во провалов напряжения L2</NumberOfVoltageSagsL2>
+      <NumberOfVoltageSagsL3>Кол-во провалов напряжения L3</NumberOfVoltageSagsL3>
+      <NumberOfVoltageSwellsL1>Кол-во скачков напряжения L1</NumberOfVoltageSwellsL1>
+      <NumberOfVoltageSwellsL2>Кол-во скачков напряжения L2</NumberOfVoltageSwellsL2>
+      <NumberOfVoltageSwellsL3>Кол-во скачков напряжения L3</NumberOfVoltageSwellsL3>
+      <NumberOfVoltageSwellsAnyPhase>Кол-во скачков напряжения</NumberOfVoltageSwellsAnyPhase>
+      <BillingPeriodResetCounter>Кол-во сбросов биллингового периода</BillingPeriodResetCounter>
+      <Credit>Кредит</Credit>
+      <COSEMLogicalDeviceName>Логическое имя устройства (COSEM)</COSEMLogicalDeviceName>
+      <LocalDate>Местная дата</LocalDate>
+      <LocalTime>Местное время</LocalTime>
+      <CurrentlyActiveTariffNumber>Текущий тариф</CurrentlyActiveTariffNumber>
+      <VoltageLimitInfo>Ограничение напряжения, информация</VoltageLimitInfo>
+      <StatesForCiu>События для пользовательского дисплея</StatesForCiu>
+      <CodeEventForCommonEventLog>События журнала состояние интерфейсов</CodeEventForCommonEventLog>
+      <CodeEventForDemandManagementLog>События журнала управление нагрузкой</CodeEventForDemandManagementLog>
+      <CodeEventForDisconnectControlLog>События журнала отключения</CodeEventForDisconnectControlLog>
+      <CodeEventForDisconnectorControlEventLog>События журнала отключения нагрузки</CodeEventForDisconnectorControlEventLog>
+      <CodeEventForExtraEventLog>События журнала дополнительные</CodeEventForExtraEventLog>
+      <CodeEventForFinishedQualityEventLog>События журнала порогов восстановления</CodeEventForFinishedQualityEventLog>
+      <CodeEventForFirmwareEventLog>События журнала прошивок</CodeEventForFirmwareEventLog>
+      <CodeEventForFraudDetectionEventLog>События журнала воровства</CodeEventForFraudDetectionEventLog>
+      <CodeEventForFraudDetectionLog>События журнала воровства </CodeEventForFraudDetectionLog>
+      <CodeEventForPowerQualityEventLog>События журнала порогов пересечения</CodeEventForPowerQualityEventLog>
+      <CodeEventForStandardEventLog>События стандартного журнала </CodeEventForStandardEventLog>
+      <CodeEventForStandartEventLog>События стандартного журнала</CodeEventForStandartEventLog>
+      <CodeEventForSynchronizationEventLog>События журнала синхронизации времени</CodeEventForSynchronizationEventLog>
+      <Status1>Состояния: дополнительные</Status1>
+      <ActiveFirmSignature>Цифровая подпись прошивки</ActiveFirmSignature>
+      <TimerCredit>Таймер</TimerCredit>
+      <DeviceTable>Таблица устройств</DeviceTable>
+      <InterfaceTable>Таблица интерфейсов</InterfaceTable>
+      <ClockStatus>Статус времени</ClockStatus>
+      <AMRProfileStatusForLoadProfileWithPeriod1>Статус AMR (Профиль4)</AMRProfileStatusForLoadProfileWithPeriod1>
+      <AMRProfileStatus4>Статус AMR (Профиль4)</AMRProfileStatus4>
+      <AMRProfileStatusForLoadProfileWithPeriod3>Статус AMR (Профиль3)</AMRProfileStatusForLoadProfileWithPeriod3>
+      <AMRProfileStatus3>Статус AMR (Профиль3)</AMRProfileStatus3>
+      <AMRProfileStatusForLoadProfileWithPeriod2>Статус AMR (Профиль2)</AMRProfileStatusForLoadProfileWithPeriod2>
+      <AMRProfileStatus2>Статус AMR (Профиль2)</AMRProfileStatus2>
+      <AMRProfileStatus1>Статус AMR (Биллинговый профиль)</AMRProfileStatus1>
+      <Status>Статус</Status>
+      <InstActEn>InstActEn</InstActEn>
+      <ReactEnergyExpBillingIncrementalRate6>Реактивная энергия, экспорт, тариф6, дельта биллинг</ReactEnergyExpBillingIncrementalRate6>
+      <ReactEnergyExpBillingIncrementalRate5>Реактивная энергия, экспорт, тариф5, дельта биллинг</ReactEnergyExpBillingIncrementalRate5>
+      <ReactEnergyExpBillingIncrementalRate4>Реактивная энергия, экспорт, тариф4, дельта биллинг</ReactEnergyExpBillingIncrementalRate4>
+      <ReactEnergyExpBillingIncrementalRate3>Реактивная энергия, экспорт, тариф3, дельта биллинг</ReactEnergyExpBillingIncrementalRate3>
+      <ReactEnergyExpBillingIncrementalRate2>Реактивная энергия, экспорт, тариф2, дельта биллинг</ReactEnergyExpBillingIncrementalRate2>
+      <ReactEnergyExpBillingIncremental>Реактивная энергия, экспорт, дельта биллинг</ReactEnergyExpBillingIncremental>
+      <ReactEnergyExpIncremental>Реактивная энергия, экспорт, дельта</ReactEnergyExpIncremental>
+      <ReactEnergyQ4BillingIncrementalRate6>Реактивная энергия, квадрант4, тариф6, дельта биллинг</ReactEnergyQ4BillingIncrementalRate6>
+      <ReactEnergyQ4Rate6>Реактивная энергия, квадрант4, тариф6</ReactEnergyQ4Rate6>
+      <ReactEnergyQ4BillingIncrementalRate5>Реактивная энергия, квадрант4, тариф5, дельта биллинг</ReactEnergyQ4BillingIncrementalRate5>
+      <ReactEnergyQ4Rate5>Реактивная энергия, квадрант4, тариф5</ReactEnergyQ4Rate5>
+      <ReactEnergyQ4BillingIncrementalRate4>Реактивная энергия, квадрант4, тариф4, дельта биллинг</ReactEnergyQ4BillingIncrementalRate4>
+      <ReactEnergyQ4Rate4>Реактивная энергия, квадрант4, тариф4</ReactEnergyQ4Rate4>
+      <ReactEnergyQ4BillingIncrementalRate3>Реактивная энергия, квадрант4, тариф3, дельта биллинг</ReactEnergyQ4BillingIncrementalRate3>
+      <ReactEnergyQ4Rate3>Реактивная энергия, квадрант4, тариф3</ReactEnergyQ4Rate3>
+      <ReactEnergyQ4BillingIncrementalRate2>Реактивная энергия, квадрант4, тариф2, дельта биллинг</ReactEnergyQ4BillingIncrementalRate2>
+      <ReactEnergyQ4Rate2>Реактивная энергия, квадрант4, тариф2</ReactEnergyQ4Rate2>
+      <ReactEnergyQ4BillingIncrementalRate1>Реактивная энергия, квадрант4, тариф1, дельта биллинг</ReactEnergyQ4BillingIncrementalRate1>
+      <ReactEnergyQ4Rate1>Реактивная энергия, квадрант4, тариф1</ReactEnergyQ4Rate1>
+      <ReactEnergyQ4BillingIncremental>Реактивная энергия, квадрант4, дельта биллинг</ReactEnergyQ4BillingIncremental>
+      <ReactEnergyQ4Incremental>Реактивная энергия, квадрант4, дельта</ReactEnergyQ4Incremental>
+      <ReactEnergyQ4>Реактивная энергия, квадрант4</ReactEnergyQ4>
+      <ReactEnergyQ3>Реактивная энергия, квадрант3</ReactEnergyQ3>
+      <ReactEnergyQ3Rate6>Реактивная энергия, квадрант3, тариф6</ReactEnergyQ3Rate6>
+      <ReactEnergyQ3BillingIncrementalRate6>Реактивная энергия, квадрант3, тариф6, дельта биллинг</ReactEnergyQ3BillingIncrementalRate6>
+      <ReactEnergyQ3Rate5>Реактивная энергия, квадрант3, тариф5</ReactEnergyQ3Rate5>
+      <ReactEnergyQ3BillingIncrementalRate5>Реактивная энергия, квадрант3, тариф5, дельта биллинг</ReactEnergyQ3BillingIncrementalRate5>
+      <ReactEnergyQ3Rate4>Реактивная энергия, квадрант3, тариф4</ReactEnergyQ3Rate4>
+      <ReactEnergyQ3BillingIncrementalRate4>Реактивная энергия, квадрант3, тариф4, дельта биллинг</ReactEnergyQ3BillingIncrementalRate4>
+      <ReactEnergyQ3Rate3>Реактивная энергия, квадрант3, тариф3</ReactEnergyQ3Rate3>
+      <ReactEnergyQ3BillingIncrementalRate3>Реактивная энергия, квадрант3, тариф3, дельта биллинг</ReactEnergyQ3BillingIncrementalRate3>
+      <ReactEnergyQ3Rate2>Реактивная энергия, квадрант3, тариф2</ReactEnergyQ3Rate2>
+      <ReactEnergyQ3BillingIncrementalRate2>Реактивная энергия, квадрант3, тариф2, дельта биллинг</ReactEnergyQ3BillingIncrementalRate2>
+      <ReactEnergyQ3Rate1>Реактивная энергия, квадрант3, тариф1</ReactEnergyQ3Rate1>
+      <ReactEnergyQ3BillingIncrementalRate1>Реактивная энергия, квадрант3, тариф1, дельта биллинг</ReactEnergyQ3BillingIncrementalRate1>
+      <ReactEnergyQ3Incremental>Реактивная энергия, квадрант3, дельта</ReactEnergyQ3Incremental>
+      <ReactEnergyQ3BillingIncremental>Реактивная энергия, квадрант3, дельта биллинг</ReactEnergyQ3BillingIncremental>
+      <ReactEnergyQ2>Реактивная энергия, квадрант2</ReactEnergyQ2>
+      <ReactEnergyQ2Rate6>Реактивная энергия, квадрант2, тариф6</ReactEnergyQ2Rate6>
+      <ReactEnergyQ2BillingIncrementalRate6>Реактивная энергия, квадрант2, тариф6, дельта биллинг</ReactEnergyQ2BillingIncrementalRate6>
+      <ReactEnergyQ2Rate5>Реактивная энергия, квадрант2, тариф5</ReactEnergyQ2Rate5>
+      <ReactEnergyQ2BillingIncrementalRate5>Реактивная энергия, квадрант2, тариф5, дельта биллинг</ReactEnergyQ2BillingIncrementalRate5>
+      <ReactEnergyQ2Rate4>Реактивная энергия, квадрант2, тариф4</ReactEnergyQ2Rate4>
+      <ReactEnergyQ2BillingIncrementalRate4>Реактивная энергия, квадрант2, тариф4, дельта биллинг</ReactEnergyQ2BillingIncrementalRate4>
+      <ReactEnergyQ2Rate3>Реактивная энергия, квадрант2, тариф3</ReactEnergyQ2Rate3>
+      <ReactEnergyQ2BillingIncrementalRate3>Реактивная энергия, квадрант2, тариф3, дельта биллинг</ReactEnergyQ2BillingIncrementalRate3>
+      <ReactEnergyQ2Rate2>Реактивная энергия, квадрант2, тариф2</ReactEnergyQ2Rate2>
+      <ReactEnergyQ2BillingIncrementalRate2>Реактивная энергия, квадрант2, тариф2, дельта биллинг</ReactEnergyQ2BillingIncrementalRate2>
+      <ReactEnergyQ2Rate1>Реактивная энергия, квадрант2, тариф1</ReactEnergyQ2Rate1>
+      <ReactEnergyQ2BillingIncrementalRate1>Реактивная энергия, квадрант2, тариф1, дельта биллинг</ReactEnergyQ2BillingIncrementalRate1>
+      <ReactEnergyQ2Incremental>Реактивная энергия, квадрант2, дельта</ReactEnergyQ2Incremental>
+      <ReactEnergyQ2BillingIncremental>Реактивная энергия, квадрант2, дельта биллинг</ReactEnergyQ2BillingIncremental>
+      <ReactEnergyQ1BillingIncrementalRate6>Реактивная энергия, квадрант1, тариф6, дельта биллинг</ReactEnergyQ1BillingIncrementalRate6>
+      <ReactEnergyQ1BillingIncrementalRate4>Реактивная энергия, квадрант1, тариф4, дельта биллинг</ReactEnergyQ1BillingIncrementalRate4>
+      <ReactEnergyQ1BillingIncrementalRate5>Реактивная энергия, квадрант1, тариф5, дельта биллинг</ReactEnergyQ1BillingIncrementalRate5>
+      <MaxDemandImportRate1>Пиковая мощность, импорт, тариф 1</MaxDemandImportRate1>
+      <MaxDemandImportRate2>Пиковая мощность, импорт, тариф 2</MaxDemandImportRate2>
+      <MaxDemandImportRate3>Пиковая мощность, импорт, тариф 3</MaxDemandImportRate3>
+      <MaxDemandImportRate4>Пиковая мощность, импорт, тариф 4</MaxDemandImportRate4>
+      <MaxDemandImportRate5>Пиковая мощность, импорт, тариф 5</MaxDemandImportRate5>
+      <MaxDemandImportRate6>Пиковая мощность, импорт, тариф 6</MaxDemandImportRate6>
+      <MaxDemandImportRate1_time>Пиковая мощность, импорт: время тариф1</MaxDemandImportRate1_time>
+      <MaxDemandImportRate2_time>Пиковая мощность, импорт: время тариф2</MaxDemandImportRate2_time>
+      <MaxDemandImportRate3_time>Пиковая мощность, импорт: время тариф3</MaxDemandImportRate3_time>
+      <MaxDemandImportRate4_time>Пиковая мощность, импорт: время тариф4</MaxDemandImportRate4_time>
+      <MaxDemandImportRate5_time>Пиковая мощность, импорт: время тариф5</MaxDemandImportRate5_time>
+      <MaxDemandImportRate6_time>Пиковая мощность, импорт: время тариф6</MaxDemandImportRate6_time>
+      <MaxDemandImport_time>Пиковая мощность, импорт: время</MaxDemandImport_time>
+      <MaxDemandImport>Пиковая мощность, импорт</MaxDemandImport>
+      <MaxDemandExportRate1>Пиковая мощность, экспорт, тариф 1</MaxDemandExportRate1>
+      <MaxDemandExportRate2>Пиковая мощность, экспорт, тариф 2</MaxDemandExportRate2>
+      <MaxDemandExportRate3>Пиковая мощность, экспорт, тариф 3</MaxDemandExportRate3>
+      <MaxDemandExportRate4>Пиковая мощность, экспорт, тариф 4</MaxDemandExportRate4>
+      <MaxDemandExportRate5>Пиковая мощность, экспорт, тариф 5</MaxDemandExportRate5>
+      <MaxDemandExportRate6>Пиковая мощность, экспорт, тариф 6</MaxDemandExportRate6>
+      <MaxDemandExportRate1_time>Пиковая мощность, экспорт: время тариф1</MaxDemandExportRate1_time>
+      <MaxDemandExportRate2_time>Пиковая мощность, экспорт: время тариф2</MaxDemandExportRate2_time>
+      <MaxDemandExportRate3_time>Пиковая мощность, экспорт: время тариф3</MaxDemandExportRate3_time>
+      <MaxDemandExportRate4_time>Пиковая мощность, экспорт: время тариф4</MaxDemandExportRate4_time>
+      <MaxDemandExportRate5_time>Пиковая мощность, экспорт: время тариф5</MaxDemandExportRate5_time>
+      <MaxDemandExportRate6_time>Пиковая мощность, экспорт: время тариф6</MaxDemandExportRate6_time>
+      <MaxDemandExport_time>Пиковая мощность, экспорт: время</MaxDemandExport_time>
+      <MaxDemandExport>Пиковая мощность, экспорт</MaxDemandExport>
+      <AverageMeasurementPeriod>Усреднение, период</AverageMeasurementPeriod>
+      <TotalLongIdleCount>Общее количество длительных простоев</TotalLongIdleCount>
+      <Idle>Простой</Idle>
+      <CosFImp_L1>сosф, импорт L1</CosFImp_L1>
+      <CosFImp_L2>сosф, импорт L2</CosFImp_L2>
+      <CosFImp_L3>сosф, импорт L3</CosFImp_L3>
+      <CosFImp>сosф, импорт</CosFImp>
+      <CosFExp_L1>сosф, экспорт L1</CosFExp_L1>
+      <CosFExp_L2>сosф, экспорт L2</CosFExp_L2>
+      <CosFExp_L3>сosф, экспорт L3</CosFExp_L3>
+      <CosFExp>сosф, экспорт</CosFExp>
+      <IdleStruct>Структура простоя</IdleStruct>
+      <TotalLongIdleTime>Суммарное время длительных простоев</TotalLongIdleTime>
+      <TotalShortIdleTime>Суммарное время коротких простоев</TotalShortIdleTime>
+      <TotalShortIdleCount>Суммарное количество коротких простоев</TotalShortIdleCount>
+      <DemandImport>Средняя мощность, импорт</DemandImport>
+      <DemandExport>Средняя мощность, экспорт</DemandExport>
+      <Temperature>Температура</Temperature>
+      <ActivePowerL1>Активная мощность L1</ActivePowerL1>
+      <SumInstantaneousActivePower_L1>Активная мощность L1</SumInstantaneousActivePower_L1>
+      <ActivePowerL2>Активная мощность L2</ActivePowerL2>
+      <SumInstantaneousActivePower_L2>Активная мощность L2</SumInstantaneousActivePower_L2>
+      <ActivePowerL3>Активная мощность L3</ActivePowerL3>
+      <SumInstantaneousActivePower_L3>Активная мощность L3</SumInstantaneousActivePower_L3>
+      <ActivePowerImportL1>Активная мощность, импорт L1</ActivePowerImportL1>
+      <ActivePowerImportL2>Активная мощность, импорт L2</ActivePowerImportL2>
+      <ActivePowerImportL3>Активная мощность, импорт L3</ActivePowerImportL3>
+      <AbsoluteInstantaneousActivePower>Активная мощность, по модулю</AbsoluteInstantaneousActivePower>
+      <InstantaneousActivePower>Активная мощность, по модулю</InstantaneousActivePower>
+      <ActivePowerExportL1>Активная мощность, экспорт L1</ActivePowerExportL1>
+      <ActivePowerExportL2>Активная мощность, экспорт L2</ActivePowerExportL2>
+      <ActivePowerExportL3>Активная мощность, экспорт L3</ActivePowerExportL3>
+      <TotalActivePower>Активная мощность</TotalActivePower>
+      <TotalSumInstantaneousActivePower>Активная мощность</TotalSumInstantaneousActivePower>
+      <ActMaxDemand_time>Активная энергия, максимальное потребление время</ActMaxDemand_time>
+      <ActMaxDemand>Активная энергия, максимальное потребление</ActMaxDemand>
+      <DemandControlThresholdActive1>Контроль средней активной мощности, тариф1</DemandControlThresholdActive1>
+      <DemandControlThresholdPassive1>Контроль средней активной мощности, тариф1</DemandControlThresholdPassive1>
+      <DemandControlThresholdActive2>Контроль средней активной мощности, тариф2</DemandControlThresholdActive2>
+      <DemandControlThresholdPassive2>Контроль средней активной мощности, тариф2</DemandControlThresholdPassive2>
+      <DemandControlThresholdActive3>Контроль средней активной мощности, тариф3</DemandControlThresholdActive3>
+      <DemandControlThresholdPassive3>Контроль средней активной мощности, тариф3</DemandControlThresholdPassive3>
+      <DemandControlThresholdActive4>Контроль средней активной мощности, тариф4</DemandControlThresholdActive4>
+      <DemandControlThresholdPassive4>Контроль средней активной мощности, тариф4</DemandControlThresholdPassive4>
+      <DemandControlThresholdActive5>Контроль средней активной мощности, тариф5</DemandControlThresholdActive5>
+      <DemandControlThresholdPassive5>Контроль средней активной мощности, тариф5</DemandControlThresholdPassive5>
+      <DemandControlThresholdActive6>Контроль средней активной мощности, тариф6</DemandControlThresholdActive6>
+      <DemandControlThresholdPassive6>Контроль средней активной мощности, тариф6</DemandControlThresholdPassive6>
+      <BatteryVoltage>Напряжение батареи</BatteryVoltage>
+      <InstVoltageL1>Напряжение, мгновенное L1</InstVoltageL1>
+      <InstVoltageL2>Напряжение, мгновенное L2</InstVoltageL2>
+      <InstVoltageL3>Напряжение, мгновенное L3</InstVoltageL3>
+      <NominalVoltage>Напряжение, номинальное</NominalVoltage>
+      <AvgVoltageL1>Напряжение, среднее L1</AvgVoltageL1>
+      <AvgVoltageL2>Напряжение, среднее L2</AvgVoltageL2>
+      <AvgVoltageL3>Напряжение, среднее L3</AvgVoltageL3>
+      <PowerPhaseUnbalance>Небаланс мощности</PowerPhaseUnbalance>
+      <VoltagePhaseUnbalance>Небаланс напряжения</VoltagePhaseUnbalance>
+      <MaxDemand_time>Пиковая мощность_время</MaxDemand_time>
+      <MaxDemand>Пиковая активная мощность</MaxDemand>
+      <DurationOfLongPowerFailuresInAllPhases>Продолжительность длительных провалов напряжения</DurationOfLongPowerFailuresInAllPhases>
+      <DurationOfLongPowerFailuresInAnyPhase>Продолжительность длительных провалов напряжения</DurationOfLongPowerFailuresInAnyPhase>
+      <ReactPowerImportL1>Реактивная мощность, импорт L1</ReactPowerImportL1>
+      <ReactPowerImportL2>Реактивная мощность, импорт L2</ReactPowerImportL2>
+      <ReactPowerImportL3>Реактивная мощность, импорт L3</ReactPowerImportL3>
+      <ReactPowerImport>Реактивная мощность, импорт</ReactPowerImport>
+      <TotalReactPower>Реактивная мощность, суммарная</TotalReactPower>
+      <ReactPowerExportL1>Реактивная мощность, экспорт L1</ReactPowerExportL1>
+      <ReactPowerExportL2>Реактивная мощность, экспорт L2</ReactPowerExportL2>
+      <ReactPowerExportL3>Реактивная мощность, экспорт L3</ReactPowerExportL3>
+      <ReactPowerExport>Реактивная мощность, экспорт</ReactPowerExport>
+      <CurrentCh4>Ток мгновенный N</CurrentCh4>
+      <InstCurrentL1_mA>Ток, мгновенный L1(мА)</InstCurrentL1_mA>
+      <InstCurrentL1>Ток, мгновенный L1</InstCurrentL1>
+      <InstCurrentL2_mA>Ток, мгновенный L2(мА)</InstCurrentL2_mA>
+      <InstCurrentL2>Ток, мгновенный L2</InstCurrentL2>
+      <InstCurrentL3_mA>Ток, мгновенный L3 (мА)</InstCurrentL3_mA>
+      <InstCurrentL3>Ток, мгновенный L3</InstCurrentL3>
+      <InstantaneousCurrent>Ток, мгновенный</InstantaneousCurrent>
+      <AngleUaUb>Угол между фазой A и В</AngleUaUb>
+      <AngleUaUc>Угол между фазой A и С</AngleUaUc>
+      <Frequency>Частота сети</Frequency>
+      <ReferenceVoltageForPowerQualityMeasurement>Эталонное напряжение</ReferenceVoltageForPowerQualityMeasurement>
+      <InstantaneousActivePowerExport>InstantaneousActivePowerExport</InstantaneousActivePowerExport>
+      <InstantaneousActivePowerImport>InstantaneousActivePowerImport</InstantaneousActivePowerImport>
+      <MessageCode>Сообщение, короткое</MessageCode>
+      <MessageText>Сообщение, бегущая строка</MessageText>
+      <AlarmTurnOffbyCur>Авария, отключение по току</AlarmTurnOffbyCur>
+      <AlarmExceedingVoltage>Авария, превышение напряжения</AlarmExceedingVoltage>
+      <AlarmExceedingTempr>Авария, превышение температуры</AlarmExceedingTempr>
+      <AlarmTimeNotSync>Авария, время не синхронизировано</AlarmTimeNotSync>
+      <AlarmWrongInst>Авария, неправильная установка</AlarmWrongInst>
+      <AlarmPowerOff>Авария, отключение питания</AlarmPowerOff>
+      <AlarmTurnOffbyExt>Авария, отключение по внешней причине</AlarmTurnOffbyExt>
+      <AlarmTurnOffbyPower>Авария, отключение по мощности</AlarmTurnOffbyPower>
+      <AlarmTurnOffbyVoltage>Авария, отключение по напряжению</AlarmTurnOffbyVoltage>
+      <AlarmTurnOffbyTempr>Авария, отключение по температуре</AlarmTurnOffbyTempr>
+      <AlarmTimeSyncErr>Авария, ошибка синхронизации времени</AlarmTimeSyncErr>
+      <AlarmDevError>Авария, ошибки устройства</AlarmDevError>
+      <AlarmExceedingCur>Авария, превышение тока</AlarmExceedingCur>
+      <AlarmWarnExt>Авария, внешнее предупреждение</AlarmWarnExt>
+      <AlarmWarnPower>Авария, предупреждение по мощности</AlarmWarnPower>
+      <AlarmWarnTempr>Авария, предупреждение по температуре</AlarmWarnTempr>
+      <AlarmTar4byExt>АварияТар4поВнешнПричине</AlarmTar4byExt>
+      <AlarmTar4byPower>АварияТар4поМощности</AlarmTar4byPower>
+      <ActiveTOU>Активный тарифный план</ActiveTOU>
+      <AsyncAlarms>Асинхронные аварии</AsyncAlarms>
+      <AlarmByMagneticField>Событие: Магнитное поле</AlarmByMagneticField>
+      <AlarmByTerminalCover>Событие: Открыта клеммная крышка</AlarmByTerminalCover>
+      <AlarmByCommunicationViaOptic>Событие: Подключение через оптопорт</AlarmByCommunicationViaOptic>
+      <CurStates1>Состояние 1</CurStates1>
+      <CurStates2>Состояние 2</CurStates2>
+      <DayStates1>Суточные состояния 1</DayStates1>
+      <DayStates>Суточные состояния 1</DayStates>
+      <DayStates2>Суточные состояния 2</DayStates2>
+      <CurStates>Текущее состояния</CurStates>
+      <HourStates1>Часовое состояние 1</HourStates1>
+      <HourStates2>Часовое состояние 2</HourStates2>
     </ParamShortNames>
     <ResourceNames>
       <Electro>Электричество</Electro>
@@ -7094,6 +7530,8 @@
       <Electro_3F_Consumption>3Ф потребление электроэнергии</Electro_3F_Consumption>
       <Electro_3F_Advanced>Электрич. 3Ф расширенный</Electro_3F_Advanced>
       <_Service>Служба</_Service>
+      <Heat_Consumption>Потребление тепла</Heat_Consumption>
+      <Heat>Тепло</Heat>
     </Categories>
   </DeviceReference>
   <Export>
@@ -7216,6 +7654,22 @@
       <_Manage>Управление</_Manage>
       <PiiGAB_List>Список PiiGAB</PiiGAB_List>
       <PiiGAB_Manager_plugin_was_not_found>PiiGAB Manager плагин не найден!</PiiGAB_Manager_plugin_was_not_found>
+      <Refresh>Обновить</Refresh>
+      <Auto_detect>Определить автоматически</Auto_detect>
+      <Ping>Ping</Ping>
+      <IP_Edit>Изменить IP</IP_Edit>
+      <Mbus_search>Поиск M-bus</Mbus_search>
+      <Get_Mbus_data>Получить данные шины M-bus</Get_Mbus_data>
+      <Suspend>Приостановить</Suspend>
+      <Release>Выпуск</Release>
+      <Status>Статус</Status>
+      <SerialNo>Серийный номер</SerialNo>
+      <IP_Address>IP адрес</IP_Address>
+      <Port>Порт</Port>
+      <Request_Period_hours>Период запроса (часы)</Request_Period_hours>
+      <Last_Active>Последняя активность</Last_Active>
+      <Last_Data_Request>Запрос на получение последних данных</Last_Data_Request>
+      <Last_Discovery>Последнее обнаружение</Last_Discovery>
     </PiiGABClient>
   </PiiGABClient>
   <InformationSystem>
@@ -7325,6 +7779,41 @@
     <Menu>
       <SoftIdentificationClient>Метрологические идентификаторы ПО</SoftIdentificationClient>
     </Menu>
+    <Modules>
+      <Add.DCUSup.DataCollection.dll>DCU data collection</Add.DCUSup.DataCollection.dll>
+      <Add.Export.dll>Подготовка данных для экспорта</Add.Export.dll>
+      <Add.ExportFormater.dll>Форматирование файлов экспорта</Add.ExportFormater.dll>
+      <Add.ReaderWriter.dll>Чтение/запись данных из MSSQL</Add.ReaderWriter.dll>
+      <Add.RqstMngr.dll>Сбор данных с 5.4 и Lite счетчиков</Add.RqstMngr.dll>
+      <Add.StoredDataManager.dll>Архивирование, удаление и восстановление старых данных</Add.StoredDataManager.dll>
+    </Modules>
+    <Columns>
+      <FileName>Имя файла</FileName>
+      <Description>Описание</Description>
+      <Version>Версия</Version>
+      <Checksum>Контрольная сумма MD5</Checksum>
+    </Columns>
+    <Grid>
+      <_autoResizeColumnsMI>Авто изменение размера столбцов</_autoResizeColumnsMI>
+      <_columnsMI>Столбцы</_columnsMI>
+      <_quickSearchToolStripMenuItem>Быстрый поиск</_quickSearchToolStripMenuItem>
+      <printToolStripMenuItem>Отчет</printToolStripMenuItem>
+      <_chartsMI>Диаграмма</_chartsMI>
+      <saveToCsvToolStripMenuItem>Сохранить в CSV...</saveToCsvToolStripMenuItem>
+      <_arByAllCellsExceptHeaderMI>всеми ячейками за исключением заголовка</_arByAllCellsExceptHeaderMI>
+      <_arByColumnHeaderMI>по заголовку столбца</_arByColumnHeaderMI>
+      <_arByDisplayedCellsMI>по отображаемым ячейкам</_arByDisplayedCellsMI>
+      <_arByDisplayedCellsExceptHeaderMI>по отображаемым ячейкам, за исключением заголовка</_arByDisplayedCellsExceptHeaderMI>
+      <_quickSearchL>Быстрый поиск:</_quickSearchL>
+      <clearFiltersB>Сбросить все фильтры</clearFiltersB>
+      <Count>Кол-во</Count>
+    </Grid>
+    <Form>
+      <Text>Идентификационные данные</Text>
+      <Product>Продукт</Product>
+      <Components>Компоненты:</Components>
+      <Button>Ок</Button>
+    </Form>
   </SoftIdentificationClient>
   <SwitchTasksClient>
     <SwitchTasksClient>
@@ -7470,6 +7959,7 @@
       <New_Group>Новая группа</New_Group>
       <All_items_from_parent_group_will_be_moved_to_new_group>All_items_from_parent_group_will_be_moved_to_new_group</All_items_from_parent_group_will_be_moved_to_new_group>
       <Are_you_sure_you_want_create_measurement_points_for_drag_devices>Вы уверены, что хотите создать  учетные точки для перемещенных устройств?</Are_you_sure_you_want_create_measurement_points_for_drag_devices>
+      <Create_new_measuring_point_for_device_0_1>Создать новую точку учёта для устройства {0}-{1}?</Create_new_measuring_point_for_device_0_1>
     </GroupManager>
     <GroupManagerPassportRequest>
       <Passport_Request>Запросить паспорт</Passport_Request>
@@ -7898,7 +8388,7 @@
       <EAN_Code_max_30_digits>EAN-код(макс 30 символов)</EAN_Code_max_30_digits>
       <Logical_ID>Логический ID</Logical_ID>
       <DevType>Тип устройства</DevType>
-      <SerialNo_>Серийный№*</SerialNo_>
+      <SerialNo_>Серийный №</SerialNo_>
       <Interfaces>Интерфейсы</Interfaces>
       <Property>Свойство</Property>
       <Value>Значение</Value>
@@ -8176,19 +8666,19 @@
       <Sequentially>Sequentially</Sequentially>
     </SendMode>
     <AdvancedGrid>
-      <_autoResizeColumnsMI>Auto resize columns</_autoResizeColumnsMI>
-      <_columnsMI>Columns</_columnsMI>
-      <_quickSearchToolStripMenuItem>Quick search</_quickSearchToolStripMenuItem>
-      <printToolStripMenuItem>Report</printToolStripMenuItem>
-      <_chartsMI>Chart</_chartsMI>
-      <saveToCsvToolStripMenuItem>Save to CSV...</saveToCsvToolStripMenuItem>
-      <_arByAllCellsExceptHeaderMI>by all cells except header</_arByAllCellsExceptHeaderMI>
-      <_arByColumnHeaderMI>by column header</_arByColumnHeaderMI>
-      <_arByDisplayedCellsMI>by displayed cells</_arByDisplayedCellsMI>
-      <_arByDisplayedCellsExceptHeaderMI>by displayed cells except header</_arByDisplayedCellsExceptHeaderMI>
+      <_autoResizeColumnsMI>Авто изменение размера столбцов</_autoResizeColumnsMI>
+      <_columnsMI>Столбцы</_columnsMI>
+      <_quickSearchToolStripMenuItem>Быстрый поиск</_quickSearchToolStripMenuItem>
+      <printToolStripMenuItem>Отчет</printToolStripMenuItem>
+      <_chartsMI>Диаграмма</_chartsMI>
+      <saveToCsvToolStripMenuItem>Сохранить в CSV...</saveToCsvToolStripMenuItem>
+      <_arByAllCellsExceptHeaderMI>всеми ячейками за исключением заголовка</_arByAllCellsExceptHeaderMI>
+      <_arByColumnHeaderMI>по заголовку столбца</_arByColumnHeaderMI>
+      <_arByDisplayedCellsMI>по отображаемым ячейкам</_arByDisplayedCellsMI>
+      <_arByDisplayedCellsExceptHeaderMI>по отображаемым ячейкам, за исключением заголовка</_arByDisplayedCellsExceptHeaderMI>
       <_quickSearchL>Быстрый поиск:</_quickSearchL>
-      <clearFiltersB>Reset all filters</clearFiltersB>
-      <Count>Count</Count>
+      <clearFiltersB>Сбросить все фильтры</clearFiltersB>
+      <Count>Кол-во</Count>
     </AdvancedGrid>
     <EvLogDevReadForm>
       <EvLogDevReadForm>Журнал событий устройства</EvLogDevReadForm>
@@ -8294,7 +8784,7 @@
   </BalSelectDevice>
   <BalanceGroupFind>
     <DeviceFinder>
-      <Serial_No>Серийный No</Serial_No>
+      <Serial_No>Серийный №</Serial_No>
       <Group>Группа</Group>
       <Logical_ID>Логический ID</Logical_ID>
       <EAN_Code>EAN код</EAN_Code>
@@ -8312,4 +8802,48 @@
       <Search_completed_Found_0_device_groups>Поиск закончен. Найдено устройств {0}</Search_completed_Found_0_device_groups>
     </DeviceFinder>
   </BalanceGroupFind>
+  <PriorityManagerCli>
+    <RunTime>
+      <PriorityManager>Менеджер приоритетов</PriorityManager>
+    </RunTime>
+    <PriorityManagerForm>
+      <PriorityManagerForm>Менеджер приоритетов</PriorityManagerForm>
+      <buttonDefault>По умолчанию</buttonDefault>
+      <toolStrip1>toolStrip1</toolStrip1>
+      <toolStrip1.toolStripButtonEdit>Изменить</toolStrip1.toolStripButtonEdit>
+      <Grid.ColHeader0.>#</Grid.ColHeader0.>
+      <Grid.ColHeader1.Category>Категория</Grid.ColHeader1.Category>
+      <Grid.ColHeader2.Priority>Приоритет</Grid.ColHeader2.Priority>
+      <Grid.ColHeader3.Min>Мин</Grid.ColHeader3.Min>
+      <Grid.ColHeader4.Max>Макс</Grid.ColHeader4.Max>
+      <buttonCancel>Отмена</buttonCancel>
+      <buttonOk>Ok</buttonOk>
+    </PriorityManagerForm>
+    <Catigory>
+      <DeviceTypeIdentification>DeviceTypeIdentification</DeviceTypeIdentification>
+      <Switch>Switch</Switch>
+      <STS-tokens>STS-tokens</STS-tokens>
+      <Config>Config</Config>
+      <OnDemand>OnDemand</OnDemand>
+    </Catigory>
+    <EditorForm>
+      <EditorForm>Приоритет</EditorForm>
+      <numericUpDown1>1</numericUpDown1>
+      <label2>...</label2>
+      <label1>Введите новое значение приоритета</label1>
+      <buttonCancel>Отмена</buttonCancel>
+      <buttonOk>Ок</buttonOk>
+    </EditorForm>
+  </PriorityManagerCli>
+  <TransfProp>
+    <TransfProp>
+      <Properties>Свойства</Properties>
+      <Type>Тип</Type>
+      <Ratio>Соотношение</Ratio>
+      <New_TR>Новый трансформатор</New_TR>
+      <Name>Имя</Name>
+      <Canc_el>&amp;Отмена</Canc_el>
+      <Transformer>Трансформатор</Transformer>
+    </TransfProp>
+  </TransfProp>
 </Strings>
