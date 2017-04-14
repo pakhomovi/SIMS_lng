@@ -370,7 +370,7 @@
       <mnNewUserText>Новый пользователь</mnNewUserText>
       <mnExportText>Экспорт</mnExportText>
       <mnSetPasswordText>Задать паспорт</mnSetPasswordText>
-      <mnSystemVersion>Версия системы (050417)</mnSystemVersion>
+      <mnSystemVersion>Версия системы (140417)</mnSystemVersion>
       <mnHelp>Помощь</mnHelp>
       <mnUserEvents>События пользователя</mnUserEvents>
       <mnGroupEvents>Групповые события</mnGroupEvents>
@@ -2851,7 +2851,7 @@
       <SwitchOff_ActDemand>SwitchOff_ActDemand</SwitchOff_ActDemand>
       <SwitchOff_Credit>Отключение по окончанию кредита</SwitchOff_Credit>
       <SwitchOff_CreditOut>Отключение по окончанию кредита </SwitchOff_CreditOut>
-      <SwitchOff_DifCurrent>SwitchOff_DifCurrent</SwitchOff_DifCurrent>
+      <SwitchOff_DifCurrent>Отключение по диф. току</SwitchOff_DifCurrent>
       <SwitchOff_HighVoltageL1>Отключение по скачку напряжения  L1</SwitchOff_HighVoltageL1>
       <SwitchOff_HighVoltageL1_lim1>Отключение по высокому напряжению в L1 лим.1</SwitchOff_HighVoltageL1_lim1>
       <SwitchOff_HighVoltageL2>Отключение по скачку напряжения  L2</SwitchOff_HighVoltageL2>
@@ -3145,16 +3145,16 @@
       <EvtLVModemInitBegin>EvtLVModemInitBegin</EvtLVModemInitBegin>
       <EvtLVModemInitEnd>EvtLVModemInitEnd</EvtLVModemInitEnd>
       <af_FraudDetection>af_FraudDetection</af_FraudDetection>
-      <SwitchOff_ActivePower>SwitchOff_ActivePower</SwitchOff_ActivePower>
-      <SwitchOff_ReactivePower>SwitchOff_ReactivePower</SwitchOff_ReactivePower>
-      <SwitchOff_DifCurr>SwitchOff_DifCurr</SwitchOff_DifCurr>
+      <SwitchOff_ActivePower>Отключение по активной мощности</SwitchOff_ActivePower>
+      <SwitchOff_ReactivePower>Отключение по реактивной мощности</SwitchOff_ReactivePower>
+      <SwitchOff_DifCurr>Отключение по диф. току</SwitchOff_DifCurr>
       <SwitchOff_Temperature>SwitchOff_Temperature</SwitchOff_Temperature>
       <SwitchOff_Uangle>SwitchOff_Uangle</SwitchOff_Uangle>
       <SwitchOff_ThresholdV1A>SwitchOff_ThresholdV1A</SwitchOff_ThresholdV1A>
       <SwitchOff_ThresholdV2A>SwitchOff_ThresholdV2A</SwitchOff_ThresholdV2A>
       <SwitchOff_ThresholdV3A>SwitchOff_ThresholdV3A</SwitchOff_ThresholdV3A>
       <SwitchOff_ThresholdV4A>SwitchOff_ThresholdV4A</SwitchOff_ThresholdV4A>
-      <SwitchOff_CurrentA>SwitchOff_CurrentA</SwitchOff_CurrentA>
+      <SwitchOff_CurrentA>Отключение по току L1</SwitchOff_CurrentA>
       <SwitchOff_ThresholdV1B>SwitchOff_ThresholdV1B</SwitchOff_ThresholdV1B>
       <SwitchOff_ThresholdV1C>SwitchOff_ThresholdV1C</SwitchOff_ThresholdV1C>
       <SwitchOff_ThresholdV2B>SwitchOff_ThresholdV2B</SwitchOff_ThresholdV2B>
@@ -3163,8 +3163,8 @@
       <SwitchOff_ThresholdV3C>SwitchOff_ThresholdV3C</SwitchOff_ThresholdV3C>
       <SwitchOff_ThresholdV4B>SwitchOff_ThresholdV4B</SwitchOff_ThresholdV4B>
       <SwitchOff_ThresholdV4C>SwitchOff_ThresholdV4C</SwitchOff_ThresholdV4C>
-      <SwitchOff_CurrentB>SwitchOff_CurrentB</SwitchOff_CurrentB>
-      <SwitchOff_CurrentC>SwitchOff_CurrentC</SwitchOff_CurrentC>
+      <SwitchOff_CurrentB>Отключение по току L2</SwitchOff_CurrentB>
+      <SwitchOff_CurrentC>Отключение по току L3</SwitchOff_CurrentC>
       <SwitchOff_ByLowVoltage>SwitchOff_ByLowVoltage</SwitchOff_ByLowVoltage>
       <SwitchOff_ByDiffCurrentExceed>SwitchOff_ByDiffCurrentExceed</SwitchOff_ByDiffCurrentExceed>
       <SwitchOff_ByCurrentExceed>SwitchOff_ByCurrentExceed</SwitchOff_ByCurrentExceed>
@@ -3335,7 +3335,7 @@
     <DCUClientForm>
       <DCUGrid_drop_menu_Open>Открыть</DCUGrid_drop_menu_Open>
       <DCUGrid_drop_menu_Enable>Включить</DCUGrid_drop_menu_Enable>
-      <DCUGrid_drop_menu_Disable>Деактивированный</DCUGrid_drop_menu_Disable>
+      <DCUGrid_drop_menu_Disable>Деактивировать</DCUGrid_drop_menu_Disable>
       <DCUGrid_drop_menu_Change_DCU_Type>Изменить тип DCU</DCUGrid_drop_menu_Change_DCU_Type>
       <DCUGrid_drop_menu_Remove>Удалить</DCUGrid_drop_menu_Remove>
       <DCUGrid_drop_menu_UpdateDCU>Обновить</DCUGrid_drop_menu_UpdateDCU>
@@ -3394,6 +3394,7 @@
       <Only_Disable_DCU>Можно только отключить.</Only_Disable_DCU>
       <Error>Ошибка</Error>
       <ImportErrorHeader>Ошибка импорта</ImportErrorHeader>
+      <ContainsSubGroups>Синхронизация запрещена, если целевая группа содержит точки учёта</ContainsSubGroups>
     </DCUClientForm>
     <AddDCUForm>
       <AddDCUForm>Добавить DCU</AddDCUForm>
@@ -5538,7 +5539,7 @@
       <TemplateForm>Шаблон</TemplateForm>
       <ImportBtn>Импорт</ImportBtn>
       <ExportBtn>Экспорт</ExportBtn>
-      <SaveAsBtn>Сохранить как...</SaveAsBtn>
+      <SaveAsBtn>Сохр. как...</SaveAsBtn>
       <SaveBtn>Сохранить</SaveBtn>
       <CancelBtn>Отмена</CancelBtn>
       <NameLabel>Имя шаблона:</NameLabel>
@@ -6321,7 +6322,7 @@
       <HourConsRImp>ИмпПочасРеактПотребл</HourConsRImp>
       <HourConsRExp>ЭкспПочасРеактПотребл</HourConsRExp>
       <ChangeModeTotalActEn>ИзменитьРежимСуммАктЭн</ChangeModeTotalActEn>
-      <CurStates>Текущее состояния</CurStates>
+      <CurStates>Текущее состояние</CurStates>
       <StatesInt1>СостоянияИнт1</StatesInt1>
       <Credit>Кредит</Credit>
       <ChangeModeCredit>Изменить кредитный режим</ChangeModeCredit>
@@ -7512,7 +7513,7 @@
       <DayStates1>Суточные состояния 1</DayStates1>
       <DayStates>Суточные состояния 1</DayStates>
       <DayStates2>Суточные состояния 2</DayStates2>
-      <CurStates>Текущее состояния</CurStates>
+      <CurStates>Текущее состояние</CurStates>
       <HourStates1>Часовое состояние 1</HourStates1>
       <HourStates2>Часовое состояние 2</HourStates2>
     </ParamShortNames>
@@ -8096,7 +8097,7 @@
       <lblAdditionalInfoCaption>Аппаратная версия:</lblAdditionalInfoCaption>
       <lblStoreTimeCaption>Время посл. обновления:</lblStoreTimeCaption>
       <lblSoftVersionCaption>Версия ПО:</lblSoftVersionCaption>
-      <lblProductNameVersionCaption>Имя\Версия ПО:</lblProductNameVersionCaption>
+      <lblProductNameVersionCaption>Имя / Версия ПО:</lblProductNameVersionCaption>
       <tbpDevices>Приборы</tbpDevices>
       <tbpSyncTime>Синхронизация времени</tbpSyncTime>
       <tbpHystory>История</tbpHystory>
