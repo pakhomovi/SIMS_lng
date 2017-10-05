@@ -370,7 +370,7 @@
       <mnNewUserText>Новый пользователь</mnNewUserText>
       <mnExportText>Экспорт</mnExportText>
       <mnSetPasswordText>Задать паспорт</mnSetPasswordText>
-      <mnSystemVersion>Версия системы (140417)</mnSystemVersion>
+      <mnSystemVersion>Версия системы (051017)</mnSystemVersion>
       <mnHelp>Помощь</mnHelp>
       <mnUserEvents>События пользователя</mnUserEvents>
       <mnGroupEvents>Групповые события</mnGroupEvents>
@@ -3334,7 +3334,7 @@
     </Menu>
     <DCUClientForm>
       <DCUGrid_drop_menu_Open>Открыть</DCUGrid_drop_menu_Open>
-      <DCUGrid_drop_menu_Enable>Включить</DCUGrid_drop_menu_Enable>
+      <DCUGrid_drop_menu_Enable>Активировать</DCUGrid_drop_menu_Enable>
       <DCUGrid_drop_menu_Disable>Деактивировать</DCUGrid_drop_menu_Disable>
       <DCUGrid_drop_menu_Change_DCU_Type>Изменить тип DCU</DCUGrid_drop_menu_Change_DCU_Type>
       <DCUGrid_drop_menu_Remove>Удалить</DCUGrid_drop_menu_Remove>
@@ -3359,7 +3359,7 @@
       <statusStrip1>statusStrip1</statusStrip1>
       <GridHeader_adgDCs_Name>Имя</GridHeader_adgDCs_Name>
       <GridHeader_adgDCs_ID>ID</GridHeader_adgDCs_ID>
-      <GridHeader_adgDCs_DCUVer>DCU вер.</GridHeader_adgDCs_DCUVer>
+      <GridHeader_adgDCs_DCUVer>DCU версия</GridHeader_adgDCs_DCUVer>
       <GridHeader_adgDCs_RTRVer>RTR вер.</GridHeader_adgDCs_RTRVer>
       <GridHeader_adgDCs_StoreTime>Время</GridHeader_adgDCs_StoreTime>
       <GridHeader_adgDCs_State>Статус</GridHeader_adgDCs_State>
@@ -3369,7 +3369,7 @@
       <GridHeader_adgDCs_UpdateState>Статус обновления</GridHeader_adgDCs_UpdateState>
       <GridHeader_adgDCs_UpdateResult>Результат обновления</GridHeader_adgDCs_UpdateResult>
       <GridHeader_adgDCs_Active>Активных</GridHeader_adgDCs_Active>
-      <GridHeader_adgDCs_Allowed>Разрешено</GridHeader_adgDCs_Allowed>
+      <GridHeader_adgDCs_Allowed>Всего счётчиков</GridHeader_adgDCs_Allowed>
       <GridHeader_adgDCs_Revoked>Чёрный список</GridHeader_adgDCs_Revoked>
       <GridHeader_adgDCs_InstalledDate>Дата установки</GridHeader_adgDCs_InstalledDate>
       <GridHeader_adgDCs_SOMVer>Версия SOM</GridHeader_adgDCs_SOMVer>
@@ -3467,12 +3467,12 @@
       <DeviceActivityStatus_Unavailable>Недоступен</DeviceActivityStatus_Unavailable>
       <HistoryTypeEvent_UnRegister>Не зарегистрирован</HistoryTypeEvent_UnRegister>
       <DevStatus_Registered>Зарегистрированный</DevStatus_Registered>
-      <MakePassportRequest>устройство было предложено.</MakePassportRequest>
+      <MakePassportRequest>- отправлен запрос паспорта</MakePassportRequest>
       <MakePassportRequestCaption>Информация</MakePassportRequestCaption>
-      <Revoke>отключить устройство.</Revoke>
+      <Revoke>устройство(а) отключить.</Revoke>
       <RevokeCaption>Информация</RevokeCaption>
       <DevStatus_SendRevoked>Отключён</DevStatus_SendRevoked>
-      <Allowed>подключить устройство.</Allowed>
+      <Allowed>устройство(а) подключить.</Allowed>
       <AllowedCaption>Информация</AllowedCaption>
       <DevStatus_SendAllowed>Подключён</DevStatus_SendAllowed>
       <SetExpiresRevokedTimeMunuItem>Set expires revoked time</SetExpiresRevokedTimeMunuItem>
@@ -4069,7 +4069,7 @@
       <monthly>ежемесячно</monthly>
       <weekly>еженедельно</weekly>
       <daily>суточный</daily>
-      <daily_frequency>суточная частота</daily_frequency>
+      <daily_frequency>часовой</daily_frequency>
       <Duration>Длительность</Duration>
       <No_end_date>Конечная дата отсутствует</No_end_date>
       <End_date>Дата окончания</End_date>
@@ -4101,7 +4101,7 @@
       <Delete>Удалить</Delete>
       <Close>Закрыть</Close>
       <Save>Сохранить</Save>
-      <Schedules_Reference>Справочники Расписаний</Schedules_Reference>
+      <Schedules_Reference>Справочник Расписаний</Schedules_Reference>
       <Accept>Принять</Accept>
       <Cancel>Отмена</Cancel>
       <Undo>Отменить</Undo>
@@ -5072,8 +5072,8 @@
       <CurrentControlThreshold__current>Максимально допустимое значение тока</CurrentControlThreshold__current>
       <ActionsTypeForMonitoringCurrent__Value>Действие по превышению уставки:</ActionsTypeForMonitoringCurrent__Value>
       <AverageMeasurementPeriod__time_second>Интервал усреднения:</AverageMeasurementPeriod__time_second>
-      <LocalDisplayArchiveConfig__ArchiveDisplayConfig>LocalDisplayArchiveConfig: ArchiveDisplayConfig</LocalDisplayArchiveConfig__ArchiveDisplayConfig>
-      <Depth>Depth</Depth>
+      <LocalDisplayArchiveConfig__ArchiveDisplayConfig>Конфигурация локального дисплея</LocalDisplayArchiveConfig__ArchiveDisplayConfig>
+      <Depth>Глубина архива</Depth>
       <ObjectList>Список величин</ObjectList>
       <ExtraSwitchSpecDaysActive_>реле дополнительное, специальные дни:</ExtraSwitchSpecDaysActive_>
       <ExtraSwitchSpecDaysPassive_>реле дополнительное, специальные дни:</ExtraSwitchSpecDaysPassive_>
@@ -6565,8 +6565,8 @@
       <DemandAddax8_CaptureTime>DemandAddax8_CaptureTime</DemandAddax8_CaptureTime>
       <DemandAddax8_ValueOfObject2>DemandAddax8_ValueOfObject2</DemandAddax8_ValueOfObject2>
       <GPRSModemSetup>901#[Интерфейс] [ gprs ] настройка модема 1</GPRSModemSetup>
-      <HdlcSetup>HDLC настройка</HdlcSetup>
-      <HdlcSetupUSB>HDLC настройка USB</HdlcSetupUSB>
+      <HdlcSetup>901#[Интерфейс] [ HDLC ] настройки</HdlcSetup>
+      <HdlcSetupUSB>901#[Интерфейс] [ HDLC ] настройка USB</HdlcSetupUSB>
       <IbLimiter>Уставка по току в L2</IbLimiter>
       <IcLimiter>Уставка по току в L3</IcLimiter>
       <IdLimiter>Уставка по току в нейтрали</IdLimiter>

@@ -18,9 +18,23 @@
 20.12.2016
 В основном изменения коснулись Единицы измерения в шаблонах, онлайн запросы, балансный отчет
 
-04.04.2016
+04.04.2017
 Инструменты = Менеджер приоритетов
 Справочники = Трансформаторы
 Короткие названия параметров - DeviceReference.ParamShortNames
 Управление = Список PiiGAB	//PiiGABClient.PiiGABClient
 Помощь = Метрологические идентификаторы ПО	//SoftIdentificationClient
+
+22.06.2017
+Грид DCU(ПКМ) - изменение статуса DCU(Деактевировать/Актевировать)
+
+05.10.2017
+Strings.DeviceReference.ParamNames.HdlcSetupUSB.text		en	HDLC настройка USB	901#[Интерфейс] [ HDLC ] настройка USB
+Strings.DeviceConfig.DeviceConfig.Depth.text		en	Depth	Глубина архива
+Strings.DeviceConfig.DeviceConfig.LocalDisplayArchiveConfig__ArchiveDisplayConfig.text		en	LocalDisplayArchiveConfig: ArchiveDisplayConfig	Конфигурация локального дисплея
+Strings.DeviceReference.ParamNames.HdlcSetup.text		en	HDLC настройка	901#[Интерфейс] [ HDLC ] настройка
+Strings.DeviceConfigClient.SchedulesReference.daily_frequency.text		en	суточная частота	часовой
+Strings.DeviceConfigClient.SchedulesReference.Schedules_Reference.text		en	Справочники Расписаний	Справочник Расписаний
+Strings.DCUManagerClient.DCUInfoForm.MakePassportRequest.text		en	устройство было предложено.	- отправлен запрос паспорта
+Strings.DCUManagerClient.DCUInfoForm.Revoke.text		en	отключить устройство.	устройство(а) отключить.
+Strings.DCUManagerClient.DCUInfoForm.Allowed.text		en	подключить устройство.	устройство(а) подключить.
